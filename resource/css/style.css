@@ -53,8 +53,8 @@
 .bg-blue {
   background-color: #2070ae;
 }
-.bg-darkblue {
-  background-color: #14466c;
+.bg-deepblue {
+  background-color: #102779;
 }
 .bg-skyblue {
   background-color: #63b2e9;
@@ -135,8 +135,8 @@
 .color-blue {
   color: #2070ae;
 }
-.color-darkblue {
-  color: #14466c;
+.color-deepblue {
+  color: #102779;
 }
 .color-skyblue {
   color: #63b2e9;
@@ -469,14 +469,14 @@
   }
 }
 .tit5 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: -0.025rem;
 }
 @media (max-width: 991px) {
   .tit5 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
 }
 

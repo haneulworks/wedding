@@ -205,3 +205,41 @@ $(function () {
 		$(e.target).removeClass('is-focus');
 	});
 });
+
+
+$(function () {
+	// 아코디언 열기/닫기
+	$('.accordion-header').on('click', function () {
+		const $content = $(this).next('.accordion-content');
+
+		if ($content.css('max-height') !== '0px') {
+			$content.css('max-height', '0');
+			$(this).removeClass('active');
+		} else {
+			$('.accordion-content').css('max-height', '0');
+			$('.accordion-header').removeClass('active');
+			const targetHeight = $content.prop('scrollHeight') + 100; // 여유 포함
+			$content.addClass('open').css('max-height', targetHeight + 'px');
+			$(this).addClass('active');
+		}
+	});
+	
+	$('.copyText').on('click', function () {
+		const text = $(this).data('copy') || $(this).text().trim();
+
+		// 현대적인 복사 방식
+		navigator.clipboard.writeText(text).then(() => {
+			showToast();
+		});
+	});
+
+	function showToast() {
+		const $toast = $('.toast-copy');
+		$toast.addClass('show');
+
+		// 1.5초 후 사라짐
+		setTimeout(() => {
+			$toast.removeClass('show');
+		}, 1500);
+	}
+});
