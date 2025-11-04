@@ -1,0 +1,65 @@
+@charset 'utf-8';
+@use 'mixin' as *;
+
+main{ display: block; width: 100%; height: 100%; background-color: $color-realwhite;}
+.main-section{ display: block; width: 100%; min-height: 100dvh; margin: 0; padding: 6rem 1.6rem;}
+
+#dangjin{ background-color: $color-lightblue;
+	.great-vibes-regular{ color: #96c7e7; @include title-style(depth5, 400, 1.6); text-align: center;}
+	.name-wrap{ @include d-flex; @include align-center; @include justify-center; gap: 1.6rem; margin-top: 1.6rem;
+		.name{ @include title-style(depth5, 500, 1.6);}
+	}
+
+	.img-leaf{ display: block; width: 100%;
+		img{ display: block; width: 2.8rem; margin: 0 auto;}
+	}
+
+	.parents{ @include d-flex; @include align-center; @include justify-center; gap: 1rem;
+		span{ font-weight: 400; @include text-style(depth1, 400, 1.6);}
+	}
+
+	.btn-call{ width: 100%; border: 1px solid $color-skyblue;}
+
+	.call-popup{ position: fixed; top: 0; left: 50%; transform: translateX(-50%); width: 100vw; height: 100dvh; padding: 4rem 2rem; background-color: rgba(0,0,0,0.5); z-index: 10; opacity: 0; visibility: hidden; transition: opacity 0.3s ease;
+		&.active{ opacity: 1; visibility: visible;}
+		.inner{ position: relative; width: 100%; max-height: 100%; padding: 8rem 1.6rem 4rem; border-radius: 1.6rem; background-color: $color-realwhite;
+			.tit5{
+				span{ margin-left: .8rem; color: $color-grayfont; @include text-style(depth1, 500, 1.6);}
+			}
+		}
+		.icon-close{ position: absolute; top: 2rem; right: 2rem;}
+		.call-wrap{ padding: 1.6rem 0; border-top: 1px solid $color-graybd; border-bottom: 1px solid $color-graybd;}
+		.call-list{ @include d-flex; @include align-center; @include justify-between; @include text-style(depth1,400,1.6);
+			+ .call-list{ margin-top: .8rem;}
+			.tit{ width: 10rem; color: $color-grayfont;}
+			.name{ width: 8rem;}
+			a{ display: inline-block; padding: 1rem;
+				img{ display: block; width: 1.8rem;}
+			}
+		}
+
+		.txt-close{ display: block; margin: 0 auto; margin-top: 3rem; padding: 1rem 3rem; @include text-style(depth1, 500, 1.6);}
+	}
+}
+#bucheon{ background-color: $color-lightpink;
+	.great-vibes-regular{ color: #e79696; @include title-style(depth5, 400, 1.6); text-align: center;}
+}
+
+
+.calendar{ width: 100%; margin-top: 4rem; background-color: $color-realwhite; padding: 1.6rem; border-radius: 1.6rem;
+	.txt1{ padding: .4rem; border-radius: .8rem; background-color: rgb(216, 235, 253);}
+	.firstDate{ font-weight: 600;}
+	table{ width: 100%;}
+	th,
+	td{ height: 4rem;}
+}
+.content_imgBox {
+    background-color: #132F93;
+    color: #fff;
+    width: 8vw;
+    height: 8vw;
+    line-height: 8vw;
+    border-radius: 10px;
+    font-size: 4vw;
+    display: inline-block;
+}

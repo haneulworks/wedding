@@ -1,0 +1,125 @@
+#wrap {
+  position: relative;
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 148rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 991px) {
+  .container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/main_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.gnb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 1.6rem;
+}
+.gnb ul {
+  -ms-display: flexbox; /* Over IE10 */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+}
+.gnb ul > li {
+  width: 100%;
+  max-height: 40vh;
+  aspect-ratio: 1/0.8;
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1.6rem;
+  text-align: center;
+}
+.gnb ul > li > a {
+  -ms-display: flexbox; /* Over IE10 */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1.6rem;
+  height: 100%;
+  color: #111;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.025rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media (max-width: 991px) {
+  .gnb ul > li > a {
+    font-size: 2.4rem;
+  }
+}
+
+/* footer */
+footer {
+  padding: 2rem 0;
+  background-color: #222;
+}
+
+.copyright {
+  color: #a2a2a4;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.025rem;
+}
+@media (max-width: 991px) {
+  .copyright {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 991px) {
+  .copyright {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+}
