@@ -21,6 +21,18 @@ main {
   }
 }
 
+.main-img {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+.main-img img {
+  display: block;
+  width: 100%;
+}
+
 .name-wrap {
   -ms-display: flexbox; /* Over IE10 */
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
@@ -47,6 +59,13 @@ main {
   .name-wrap .name {
     font-size: 2.6rem;
   }
+}
+
+.tit-bar {
+  display: block;
+  width: 4rem;
+  height: 1px;
+  margin: 3rem auto;
 }
 
 .img-leaf {
@@ -333,29 +352,6 @@ main {
   float: right;
 }
 
-.toast-copy {
-  position: fixed;
-  bottom: 3rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  padding: 1rem 2rem;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  font-size: 1.4rem;
-  border-radius: 2rem;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  z-index: 1000;
-}
-.toast-copy.show {
-  opacity: 1;
-  visibility: visible;
-  bottom: 4.5rem;
-}
-
 .send-flower {
   padding: 2rem;
   border-radius: 1.6rem;
@@ -595,4 +591,27 @@ main {
 }
 #bucheon .calendar .txt1 {
   background-color: #ffefef;
+}
+
+.toast-copy {
+  position: fixed;
+  bottom: 3rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.toast-copy.show {
+  opacity: 1;
+  visibility: visible;
+  bottom: 4.5rem;
 }

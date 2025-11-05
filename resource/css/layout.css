@@ -87,7 +87,6 @@ header {
   -moz-box-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  gap: 0.8rem;
   height: 100%;
   color: #111;
   font-size: 3rem;

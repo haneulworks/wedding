@@ -7,7 +7,7 @@ header{ width: 100%; /*min-height: 100vh;*/ background-color: $color-lightpink; 
 	.nav-info{ padding: 2rem; backdrop-filter: blur(4px); background-color: rgba(255, 255, 255, 0.6); border-radius: 1.6rem; text-align: center; word-break: keep-all;}
 	ul{ @include d-flex; @include flex-column; @include align-center; @include justify-center; gap: 2rem; height: 90%;
 		> li{ width: 100%; padding: 2rem; backdrop-filter: blur(4px); background-color: rgba(255, 255, 255, .6); border-radius: 1.6rem; text-align: center;
-			> a{ @include d-flex; @include flex-column; @include align-center; @include justify-center; gap: .8rem; height: 100%; color: $color-black; @include title-style(depth5, 600, 1.5); transition: 0.3s;}
+			> a{ @include d-flex; @include flex-column; @include align-center; @include justify-center; height: 100%; color: $color-black; @include title-style(depth5, 600, 1.5); transition: 0.3s;}
 		}
 		
 	}

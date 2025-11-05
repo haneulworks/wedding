@@ -55,7 +55,7 @@
   background-color: #2070ae;
 }
 .bg-deepblue {
-  background-color: #102779;
+  background-color: rgba(16, 62, 121, 0.91);
 }
 .bg-skyblue {
   background-color: #63b2e9;
@@ -137,7 +137,7 @@
   color: #2070ae;
 }
 .color-deepblue {
-  color: #102779;
+  color: rgba(16, 62, 121, 0.91);
 }
 .color-skyblue {
   color: #63b2e9;

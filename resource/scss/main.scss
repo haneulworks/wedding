@@ -8,41 +8,53 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	}
 }
 
+// 메인 이미지
+.main-img{ overflow: hidden; display: block; width: 100%; margin-top: 1rem; border-radius: 2rem;
+	img{ display: block; width: 100%;}
+}
+
+// 신랑 신부 이름
 .name-wrap{ @include d-flex; @include align-center; @include justify-center; gap: 1.6rem; margin-top: 1.6rem;
-		.name{ @include title-style(depth5, 500, 1.6);}
-	}
+	.name{ @include title-style(depth5, 500, 1.6);}
+}
 
-	.img-leaf{ display: block; width: 100%;
-		img{ display: block; width: 2.8rem; margin: 0 auto;}
-	}
+//
+.tit-bar{ display: block; width: 4rem; height: 1px; margin: 3rem auto;}
 
-	.parents{ @include d-flex; @include align-center; @include justify-center; gap: 1rem;
-		span{ font-weight: 400;}
-	}
+// 나뭇잎 이미지
+.img-leaf{ display: block; width: 100%;
+	img{ display: block; width: 2.8rem; margin: 0 auto;}
+}
 
-	.btn-call{ width: 100%; border: 1px solid $color-skyblue; background-color: $color-realwhite;}
+// 혼주 정보
+.parents{ @include d-flex; @include align-center; @include justify-center; gap: 1rem;
+	span{ font-weight: 400;}
+}
 
-	.call-popup{ position: fixed; top: 0; left: 50%; transform: translateX(-50%); width: 100vw; height: 100dvh; padding: 4rem 2rem; background-color: rgba(0,0,0,0.5); z-index: 10; opacity: 0; visibility: hidden; transition: opacity 0.3s ease;
-		&.active{ opacity: 1; visibility: visible;}
-		.inner{ overflow-y: auto; position: relative; width: 100%; max-height: 100%; padding: 8rem 1.6rem 4rem; border-radius: 1.6rem; background-color: $color-realwhite;
-			.tit5{
-				span{ margin-left: .8rem; color: $color-grayfont; @include text-style(depth1, 500, 1.6);}
-			}
+// 연락하기
+.btn-call{ width: 100%; border: 1px solid $color-skyblue; background-color: $color-realwhite;}
+.call-popup{ position: fixed; top: 0; left: 50%; transform: translateX(-50%); width: 100vw; height: 100dvh; padding: 4rem 2rem; background-color: rgba(0,0,0,0.5); z-index: 10; opacity: 0; visibility: hidden; transition: opacity 0.3s ease;
+	&.active{ opacity: 1; visibility: visible;}
+	.inner{ overflow-y: auto; position: relative; width: 100%; max-height: 100%; padding: 8rem 1.6rem 4rem; border-radius: 1.6rem; background-color: $color-realwhite;
+		.tit5{
+			span{ margin-left: .8rem; color: $color-grayfont; @include text-style(depth1, 500, 1.6);}
 		}
-		.icon-close{ position: absolute; top: 2rem; right: 2rem;}
-		.call-wrap{ padding: 1.6rem 0; border-top: 1px solid $color-graybd; border-bottom: 1px solid $color-graybd;}
-		.call-list{ @include d-flex; @include align-center; @include justify-between; @include text-style(depth1,400,1.6);
-			+ .call-list{ margin-top: .8rem;}
-			.tit{ width: 10rem; color: $color-grayfont;}
-			.name{ width: 8rem;}
-			a{ display: inline-block; padding: 1rem;
-				img{ display: block; width: 1.8rem;}
-			}
+	}
+	.icon-close{ position: absolute; top: 2rem; right: 2rem;}
+	.call-wrap{ padding: 1.6rem 0; border-top: 1px solid $color-graybd; border-bottom: 1px solid $color-graybd;}
+	.call-list{ @include d-flex; @include align-center; @include justify-between; @include text-style(depth1,400,1.6);
+		+ .call-list{ margin-top: .8rem;}
+		.tit{ width: 10rem; color: $color-grayfont;}
+		.name{ width: 8rem;}
+		a{ display: inline-block; padding: 1rem;
+			img{ display: block; width: 1.8rem;}
 		}
-
-		.txt-close{ display: block; margin: 0 auto; margin-top: 3rem; padding: 1rem 3rem; @include text-style(depth1, 500, 1.6);}
 	}
 
+	.txt-close{ display: block; margin: 0 auto; margin-top: 3rem; padding: 1rem 3rem; @include text-style(depth1, 500, 1.6);}
+}
+
+// 캘린더
 .calendar{ width: 100%; margin-top: 4rem; background-color: $color-realwhite; padding: 1.6rem; border-radius: 1.6rem;
 	.txt1{ padding: .8rem; border-radius: .8rem; background-color: rgb(216, 235, 253);}
 	.firstDate{ font-weight: 600;}
@@ -52,6 +64,7 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	.d-day { color: #fff; width: 3rem; height: 3rem; line-height: 3rem; border-radius: .8rem; display: inline-block; }
 }
 
+// 지도(카카오맵)
 .map{ @include d-flex; @include align-center; @include justify-center; width: 100%;
 	.root_daum_roughmap{ width: 100%;
 		.cont{ display: none;}
@@ -67,6 +80,7 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	}
 }
 
+// 네비게이션 링크
 .location_wrap{width:100%; height: 5rem; margin:0 auto; margin-top: 1rem;
 	a{ background-color: $color-realwhite;}
 }
@@ -78,12 +92,11 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 .BOX_TMAP{float:left;margin-left:2.5%;}
 .BOX_KAKAO{float:right;}
 
-.toast-copy{ position: fixed; bottom: 3rem; left: 50%; transform: translateX(-50%); padding: 1rem 2rem; background: rgba(0,0,0,0.8); color: #fff; font-size: 1.4rem; border-radius: 2rem; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 1000;
-	&.show{ opacity: 1; visibility: visible; bottom: 4.5rem;}
-}
 
+// 화환보내기
 .send-flower{ padding: 2rem; border-radius: 1.6rem; background-image: url('../img/flower_stand.svg'); background-repeat: no-repeat; background-size: 6.4rem; background-position: right 1rem center;}
 
+// 계좌번호 아코디언
 .account{
 	&-accordion{ width: 100%; margin: 2rem auto 0; border: 1px solid $color-graybd; border-radius: 1.6rem; overflow: hidden;
 		+ .account-accordion{ margin-top: 1rem;}
@@ -100,7 +113,6 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 		.copyText { position: absolute; top: 50%; right: 0; transform: translateY(-50%); padding: .4rem .8rem; @include caption-style(depth1, 400, 1.6); border: 1px solid $color-graybd; background: #f5f5f5; border-radius: .4rem; cursor: pointer; }
 	}
 }
-
 .accordion{
 	&-header{ @include d-flex; @include justify-between; @include align-center; width: 100%; padding: 1rem 1.6rem; background: $color-realwhite; @include text-style(depth1,400,1.6); border: none; outline: none; cursor: pointer;
 		&.active{
@@ -114,6 +126,7 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	&-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: #fff; }
 }
 
+// 오시는길
 .way_guide{ padding: 2rem; border-radius: 1.6rem; background-color: rgba(255,255,255,.6);
 	.is_map_icon{ display: inline-block; width: 3.2rem;
 		img{ display: block; width: 100%;}
@@ -124,16 +137,25 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	li + li{ padding-top: 1.6rem; margin-top: 1.6rem; border-top: 1px solid $color-graybd;}
 }
 
-
+// 당진 식전 피로연
 #dangjin{ background-color: $color-lightblue;
 	.great-vibes-regular{ color: #96c7e7; @include title-style(depth5, 400, 1.6); text-align: center;}
 	
 }
+
+// 부천 본식
 #bucheon{ background-color: $color-lightpink;
 	.great-vibes-regular{ color: #e79696; @include title-style(depth5, 400, 1.6); text-align: center;}
+
+
 	.btn-call{ border-color: #e79696;}
 
 	.parents{ font-size: 2.4rem;}
 
 	.calendar .txt1{ background-color: #ffefef;}
+}
+
+// 복사되었습니다 알림
+.toast-copy{ position: fixed; bottom: 3rem; left: 50%; transform: translateX(-50%); padding: 1rem 2rem; background: rgba(0,0,0,0.8); color: #fff; font-size: 1.4rem; border-radius: 2rem; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 1000;
+	&.show{ opacity: 1; visibility: visible; bottom: 4.5rem;}
 }
