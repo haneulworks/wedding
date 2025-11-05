@@ -21,7 +21,7 @@ $(function () {
 			overflow: 'hidden'
 		});
 
-		$('.call-popup').addClass('active');
+		$(this).next('.call-popup').addClass('active');
 	});
 
 	// 팝업 닫기
