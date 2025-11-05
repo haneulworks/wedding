@@ -36,7 +36,6 @@
 <body>
 	<div id="wrap">
 		<header>
-			
 			<nav class="gnb">
 				<p class="txt2 nav-info" data-aos="flip-up">아래 안내를 눌러주시거나 화면을 아래로 내리시면 자세한 내용을 보실 수 있습니다.</p>
 				<ul class="mt-20">
@@ -64,13 +63,19 @@
 			<div id="dangjin" class="main-section">
 				<div class="main-section-inner">
 					<p class="section-title font-jeju">당진 식전 피로연</p>
+
+					<!-- 메인 이미지 -->
 					<div class="main-img"><img src="./resource/img/main_06__.jpg" alt="식전 피로연 메인 이미지" /></div>
+
+					<!-- START :: 신랑 신부 이름 -->
 					<div class="name-wrap">
 						<span class="name groom font-jeju"><span class="color-grayfont txt1 font-jeju">신랑</span> 유찬희</span>
 						<span class="font-jeju">그리고</span>
 						<span class="name bride font-jeju"><span class="color-grayfont txt1 font-jeju">신부</span> 이하늘</span>
 					</div>
-					<!-- <span class="img-leaf mt-30"><img src="./resource/img/leaf.svg" alt=""></span> -->
+					<!-- END :: 신랑 신부 이름 -->
+					
+					<!-- START :: 인사 및 안내 -->
 					<div class="tit-bar bg-deepblue"></div>
 					<div class="info txt1 ta-c mt-10">
 						먼 걸음 어려우신 분들을 위해<br>
@@ -82,15 +87,19 @@
 						2026년 2월 28일 오전 11시<br>
 						해나루 한우돈가(축협 2층)
 					</div>
+					<!-- END :: 인사 및 안내 -->
+
+					<!-- START :: 혼주 안내 -->
 					<div class="parents tit5 fw-500 ta-c mt-30 font-jeju">
 						<span class="txt1 color-grayfont font-jeju">혼주</span> 유근국 · 장영숙 <span class="txt1 font-jeju">배상</span>
 					</div>
+					<!-- END :: 혼주 안내 -->
 
+					<!-- START :: 연락하기 -->
 					<button type="button" class="btn btn-m btn-call mt-40">연락하기</button>
 					<div class="call-popup">
 						<div class="inner">
-							<button type="button" class="closeBtn btn icon-close"><img src="./resource/img/X_ICON.svg"
-									alt="닫기 아이콘"></button>
+							<button type="button" class="closeBtn btn icon-close"><img src="./resource/img/X_ICON.svg" alt="닫기 아이콘"></button>
 
 							<h4 class="tit5 ta-c color-deepblue">축하 인사 전하기</h4>
 							<p class="txt2 ta-c mt-8">전화, 문자메세지로 축하 인사를 전해보세요.</p>
@@ -131,13 +140,15 @@
 							<button type="button" class="closeBtn txt-close btn btn-s btn-bg-gray">닫기</button>
 						</div>
 					</div>
+					<!-- END :: 연락하기 -->
 
+					<!-- START :: 달력 -->
 					<div class="calendar">
 						<p class="tit5 ta-c color-deepblue">2월</p>
 						<table class="cal mt-20">
 							<tbody>
 								<tr style="height:40px">
-									<th style="width:14.28%;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4; color: rgb(123, 26, 26);">
+									<th style="width:14.28%;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4;">
 										일</th>
 									<th style="width:14.28%;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4;">
 										월</th>
@@ -194,9 +205,12 @@
 							</tbody>
 						</table>
 					</div>
+					<!-- END :: 달력 -->
+
+					<!-- 디데이 -->
 					<p class="txt1 ta-c mt-14">식전 피로연까지 <span class="firstDate tag bg-deepblue color-white"></span>일 남았습니다.</p>
 
-
+					<!-- START :: 지도 -->
 					<div class="map-wrap">
 						<h3 class="tit5 ta-c color-deepblue mt-40 mb-20">찾아오시는 길</h3>
 						<div class="map">
@@ -219,79 +233,94 @@
 								"mapHeight" : "300",
 							}).render();
 						</script>
-						
-						<div class="location_wrap">
-							<a href="https://map.naver.com/?menu=location&amp;pinType=place&amp;lat=36.8827072&amp;lng=126.6311889&amp;title=충남 당진시 아미로 833 " class="NAV_BOX BOX_NAVER">
-								<img src="./resource/img/naverICON.png" class="BOX_NAVERIMG">&nbsp;네이버지도
-							</a>
-							<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxf131c69d9bce4925b36cde90c71b8f1f&amp;name=충남 당진시 아미로 833 &amp;lon=126.6311889&amp;lat=36.8827072" target="_blank" class="NAV_BOX BOX_TMAP">
-								<img src="./resource/img/tmapICON.png" class="BOX_TMAPIMG">&nbsp;티맵
-							</a>
-							<a href="https://kko.kakao.com/QE1fAjIPsW" target="_blank" class="NAV_BOX BOX_KAKAO">
-								<img src="./resource/img/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비
-							</a>
-						</div>
-						
-						<p class="d-flex align-center gap-10 txt1 mt-10">
-							<span class="icon"><img src="./resource/img/carICON.svg" alt="자동차 아이콘" /></span>
-							<span class="txt copyText" data-copy="충남 당진시 아미로 833">충남 당진시 아미로 833 (축협 2층 해나루 한우돈가)</span>
-						</p>
+					</div>
+					<!-- END :: 지도 -->
+					
+					<!-- START :: 네비게이션 바로 안내 -->
+					<div class="location_wrap">
+						<a href="https://map.naver.com/?menu=location&amp;pinType=place&amp;lat=36.8827072&amp;lng=126.6311889&amp;title=충남 당진시 아미로 833 " class="NAV_BOX BOX_NAVER">
+							<img src="./resource/img/naverICON.png" class="BOX_NAVERIMG">&nbsp;네이버지도
+						</a>
+						<a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xxf131c69d9bce4925b36cde90c71b8f1f&amp;name=충남 당진시 아미로 833 &amp;lon=126.6311889&amp;lat=36.8827072" target="_blank" class="NAV_BOX BOX_TMAP">
+							<img src="./resource/img/tmapICON.png" class="BOX_TMAPIMG">&nbsp;티맵
+						</a>
+						<a href="https://kko.kakao.com/QE1fAjIPsW" target="_blank" class="NAV_BOX BOX_KAKAO">
+							<img src="./resource/img/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비
+						</a>
+					</div>
+					<!-- END :: 네비게이션 바로 안내 -->
+					
+					<!-- START :: 위치 및 교통 안내 -->
+					<p class="d-flex align-center gap-10 txt1 mt-10">
+						<span class="icon"><img src="./resource/img/carICON.svg" alt="자동차 아이콘" /></span>
+						<span class="txt copyText" data-copy="충남 당진시 아미로 833">충남 당진시 아미로 833 (축협 2층 해나루 한우돈가)</span>
+					</p>
+					<!-- END :: 위치 및 교통 안내 -->
 
-						<div class="bank-wrap mt-40">
-							<h3 class="tit5 ta-c color-deepblue">마음을 전하는 곳</h3>
-							<p class="txt1 ta-c mt-20 keep-all-pretty">참석이 어려우신 분들을 위해 기재하였습니다.<br/>너그러운 마음으로 양해 부탁드립니다.</p>
+					<!-- START :: 계좌안내 -->
+					<div class="bank-wrap mt-40">
+						<h3 class="tit5 ta-c color-deepblue">마음을 전하는 곳</h3>
+						<p class="txt1 ta-c mt-20 keep-all-pretty">참석이 어려우신 분들을 위해 기재하였습니다.<br/>너그러운 마음으로 양해 부탁드립니다.</p>
 
-							<div class="account-accordion">
-								<button class="accordion-header">
-									신랑측 계좌번호 보기
-									<span class="icon"><img src="./resource/img/arrow-down.png" alt="화살표" /></span>
-								</button>
+						<div class="account-accordion">
+							<button class="accordion-header">
+								신랑측 계좌번호 보기
+								<span class="icon"><img src="./resource/img/arrow-down.png" alt="화살표" /></span>
+							</button>
 
-								<div class="accordion-content">
-									<ul class="account-list">
-									<li>
-										<p class="name">유근국</p>
-										<p class="bank">농협</p>
-										<p class="bank-num">352-1545-3613-63</p>
-										<button class="copyText" data-copy="352-1545-3613-63">계좌번호 복사</button>
-									</li>
-									<li>
-										<p class="name">장영숙</p>
-										<p class="bank">카카오뱅크</p>
-										<p class="bank-num">3333-18-2398-364</p>
-										<button class="copyText" data-copy="3333-18-2398-364">계좌번호 복사</button>
-									</li>
-									</ul>
-								</div>
-								</div>
-						</div>
-
-						<div class="send-flower btn-bg-deepblue mt-40">
-							<a href="http://agent.maruw.co.kr/mobile/product?shop=ofcourse6534&amp;goods_div_idx=1&amp;idx=1761536005330&amp;callback_url=https://bomtvcard.com/_flowerAPI.php" target="_blank">
-								<p class="txt1"><span class="fw-700">식전 피로연</span> 축하 화환 전달하기</p>
-								<p class="caption1">소중한 마음을 담아 전달해 보세요.</p>
-							</a>
+							<div class="accordion-content">
+								<ul class="account-list">
+								<li>
+									<p class="name">유근국</p>
+									<p class="bank">농협</p>
+									<p class="bank-num">352-1545-3613-63</p>
+									<button class="copyText" data-copy="352-1545-3613-63">계좌번호 복사</button>
+								</li>
+								<li>
+									<p class="name">장영숙</p>
+									<p class="bank">카카오뱅크</p>
+									<p class="bank-num">3333-18-2398-364</p>
+									<button class="copyText" data-copy="3333-18-2398-364">계좌번호 복사</button>
+								</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+					<!-- END :: 계좌안내 -->
+
+					<!-- START :: 화환보내기 -->
+					<div class="send-flower btn-bg-deepblue mt-40">
+						<a href="http://agent.maruw.co.kr/mobile/product?shop=ofcourse6534&amp;goods_div_idx=1&amp;idx=1761536005330&amp;callback_url=https://bomtvcard.com/_flowerAPI.php" target="_blank">
+							<p class="txt1"><span class="fw-700">식전 피로연</span> 축하 화환 전달하기</p>
+							<p class="caption1">소중한 마음을 담아 전달해 보세요.</p>
+						</a>
+					</div>
+					<!-- END :: 화환보내기 -->
+					
+				</div><!-- //main-section-inner -->
+			</div><!-- //main-section -->
+
 			<div id="bucheon" class="main-section">
 				<div class="main-section-inner">
+					
 					<p class="section-title font-jeju">부천 본식</p>
 
+					<!-- 메인 이미지 -->
 					<div class="main-img"><img src="./resource/img/main_04.jpg" alt="본식 메인 이미지" /></div>
 					
+					<!-- START :: 신랑 신부 이름 -->
 					<div class="name-wrap">
 						<span class="name groom font-jeju"><span class="color-grayfont txt1 font-jeju">신랑</span> 유찬희</span>
 						<span class="font-jeju">그리고</span>
 						<span class="name bride font-jeju"><span class="color-grayfont txt1 font-jeju">신부</span> 이하늘</span>
 					</div>
+					<!-- END :: 신랑 신부 이름 -->
 
+					<!-- START :: 인사 및 안내 -->
 					<p class="txt1 ta-c mt-20">
 						2026년 03월 14일 토요일<br/>오후 12시 30분<br/><span class="fw-500">MJ컨벤션</span>
 					</p>
 
-					<!-- <span class="img-leaf mt-30"><img src="./resource/img/leaf.svg" alt=""></span> -->
 					<div class="tit-bar bg-deeppink"></div>
 					<div class="info txt1 ta-c mt-10">
 						초대합니다.
@@ -312,14 +341,18 @@
 							더없이 감사하겠습니다.
 						</p>
 					</div>
+					<!-- END :: 인사 및 안내 -->
 
+					<!-- START :: 혼주 안내 -->
 					<div class="parents txt1 ta-c mt-40 font-jeju">
 						유근국 · 장영숙 <span class="font-jeju txt2 color-grayfont">의 장남</span> 신랑 유찬희
 					</div>
 					<div class="parents txt1 ta-c mt-10 font-jeju">
 						이규활 · 권순희 <span class="font-jeju txt2 color-grayfont">의 장녀</span> 신부 이하늘
 					</div>
+					<!-- END :: 혼주 안내 -->
 
+					<!-- START :: 연락하기 -->
 					<button type="button" class="btn btn-m btn-call mt-40">연락하기</button>
 					<div class="call-popup">
 						<div class="inner">
@@ -399,13 +432,15 @@
 							<button type="button" class="closeBtn txt-close btn btn-s btn-bg-gray">닫기</button>
 						</div>
 					</div>
+					<!-- END :: 연락하기 -->
 
+					<!-- START :: 달력 -->
 					<div class="calendar">
 						<p class="tit5 ta-c color-deeppink">3월</p>
 						<table class="cal mt-20">
 							<tbody>
 								<tr style="height:40px">
-									<th style="width:14.28%;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4; color: rgb(123, 26, 26);">
+									<th style="width:14.28%;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4;">
 										일</th>
 									<th style="width:14.28%;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4;">
 										월</th>
@@ -471,9 +506,12 @@
 							</tbody>
 						</table>
 					</div>
+					<!-- END :: 달력 -->
+
+					<!-- 디데이 -->
 					<p class="txt1 ta-c mt-14">식전 피로연까지 <span class="realDate tag bg-deeppink color-white"></span>일 남았습니다.</p>
 
-
+					<!-- START :: 지도 -->
 					<div class="map-wrap">
 						<h3 class="tit5 ta-c color-deeppink mt-40 mb-20">찾아오시는 길</h3>
 						<div class="map">
@@ -497,6 +535,9 @@
 							}).render();
 						</script>
 					</div>
+					<!-- END :: 지도 -->
+
+					<!-- START :: 네비게이션 바로 안내 -->
 					<div class="location_wrap">
 						<a href="https://map.naver.com/?menu=location&amp;pinType=place&amp;lat=37.48180&amp;lng=126.7985&amp;title=경기도 부천시 소사구 경인로 386 (소사본동 65-7)" class="NAV_BOX BOX_NAVER">
 							<img src="./resource/img/naverICON.png" class="BOX_NAVERIMG">&nbsp;네이버지도
@@ -508,7 +549,9 @@
 							<img src="./resource/img/kakaonaviICON.png" class="BOX_KAKAOIMG">&nbsp;카카오내비
 						</a>
 					</div>
+					<!-- END :: 네비게이션 바로 안내 -->
 
+					<!-- START :: 위치 및 교통 안내 -->
 					<div class="way_guide mt-10">
 						<ul>
 							<li class="map_subway">
@@ -551,7 +594,9 @@
 							</li>
 						</ul>
 					</div>
+					<!-- END :: 위치 및 교통 안내 -->
 
+					<!-- START :: 갤러리 슬라이드 -->
 					<h3 class="tit5 ta-c color-deeppink mt-40 mb-20">갤러리</h3>
 					<div class="weddingSlide swiper-container my">
 						<ul class="swiper-wrapper">
@@ -590,78 +635,86 @@
 						<div class="swiper-button-navi swiper-button-prev"></div>
 						<div class="swiper-button-navi swiper-button-next"></div>
 					</div>
-
 					<p class="txt2 ta-c color-grayfont mt-16">사진을 좌우로 넘기면서 보실 수 있습니다.</p>
+					<!-- END :: 갤러리 슬라이드 -->
 
+					<!-- START :: 식사안내 -->
 					<h3 class="tit5 ta-c color-deeppink mt-40 mb-20">식사 안내</h3>
 					<p class="txt1 ta-c keep-all-pretty mt-16">식사 연회장은 예식장과 같은 3층에 있습니다.</p>
 					<p class="txt1 ta-c keep-all-pretty mt-16">뷔페식으로 식사를 준비하였으며,<br/>예식 30분 전부터 자유롭게 이용 가능합니다.</p>
 					<p class="txt1 ta-c keep-all-pretty mt-16">한식·일식·양식 등 다양한 메뉴를 넉넉히 준비했으니, 편안하게 식사를 즐겨주시기 바랍니다.</p>
+					<!-- END :: 식사안내 -->
 
+					<!-- START :: 계좌안내 -->
 					<div class="bank-wrap mt-40">
-							<h3 class="tit5 ta-c color-deeppink">마음을 전하는 곳</h3>
-							<p class="txt1 ta-c mt-20 keep-all-pretty">참석이 어려우신 분들을 위해 기재하였습니다.<br/>너그러운 마음으로 양해 부탁드립니다.</p>
+						<h3 class="tit5 ta-c color-deeppink">마음을 전하는 곳</h3>
+						<p class="txt1 ta-c mt-20 keep-all-pretty">참석이 어려우신 분들을 위해 기재하였습니다.<br/>너그러운 마음으로 양해 부탁드립니다.</p>
 
-							<div class="account-accordion">
-								<button class="accordion-header">
-									신랑측 계좌번호 보기
-									<span class="icon"><img src="./resource/img/arrow-down.png" alt="화살표" /></span>
-								</button>
+						<!-- 신락측 계좌 -->
+						<div class="account-accordion">
+							<button class="accordion-header">
+								신랑측 계좌번호 보기
+								<span class="icon"><img src="./resource/img/arrow-down.png" alt="화살표" /></span>
+							</button>
 
-								<div class="accordion-content">
-									<ul class="account-list">
-									<li>
-										<p class="name">유근국</p>
-										<p class="bank">농협</p>
-										<p class="bank-num">352-1545-3613-63</p>
-										<button class="copyText" data-copy="352-1545-3613-63">계좌번호 복사</button>
-									</li>
-									<li>
-										<p class="name">장영숙</p>
-										<p class="bank">카카오뱅크</p>
-										<p class="bank-num">3333-18-2398-364</p>
-										<button class="copyText" data-copy="3333-18-2398-364">계좌번호 복사</button>
-									</li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="account-accordion">
-								<button class="accordion-header">
-									신부측 계좌번호 보기
-									<span class="icon"><img src="./resource/img/arrow-down.png" alt="화살표" /></span>
-								</button>
-
-								<div class="accordion-content">
-									<ul class="account-list">
-									<li>
-										<p class="name">이규활</p>
-										<p class="bank">기업은행</p>
-										<p class="bank-num">123-4567-89</p>
-										<button class="copyText" data-copy="123-4567-89">계좌번호 복사</button>
-									</li>
-									<li>
-										<p class="name">권순희</p>
-										<p class="bank">하나은행</p>
-										<p class="bank-num">12-345-6789</p>
-										<button class="copyText" data-copy="12-345-6789">계좌번호 복사</button>
-									</li>
-									</ul>
-								</div>
+							<div class="accordion-content">
+								<ul class="account-list">
+								<li>
+									<p class="name">유근국</p>
+									<p class="bank">농협</p>
+									<p class="bank-num">352-1545-3613-63</p>
+									<button class="copyText" data-copy="352-1545-3613-63">계좌번호 복사</button>
+								</li>
+								<li>
+									<p class="name">장영숙</p>
+									<p class="bank">카카오뱅크</p>
+									<p class="bank-num">3333-18-2398-364</p>
+									<button class="copyText" data-copy="3333-18-2398-364">계좌번호 복사</button>
+								</li>
+								</ul>
 							</div>
 						</div>
+						<!-- //신락측 계좌 -->
 
-						<div class="send-flower btn-bg-deeppink mt-40">
-							<a href="https://partner.flabiz.kr/bms/event/oi?fcard=274339" target="_blank">
-								<p class="txt1"><span class="fw-700">부천 본식</span> 축하 화환 전달하기</p>
-								<p class="caption1">소중한 마음을 담아 전달해 보세요.</p>
-							</a>
+						<!-- 신부측 계좌 -->
+						<div class="account-accordion">
+							<button class="accordion-header">
+								신부측 계좌번호 보기
+								<span class="icon"><img src="./resource/img/arrow-down.png" alt="화살표" /></span>
+							</button>
+
+							<div class="accordion-content">
+								<ul class="account-list">
+								<li>
+									<p class="name">이규활</p>
+									<p class="bank">기업은행</p>
+									<p class="bank-num">123-4567-89</p>
+									<button class="copyText" data-copy="123-4567-89">계좌번호 복사</button>
+								</li>
+								<li>
+									<p class="name">권순희</p>
+									<p class="bank">하나은행</p>
+									<p class="bank-num">12-345-6789</p>
+									<button class="copyText" data-copy="12-345-6789">계좌번호 복사</button>
+								</li>
+								</ul>
+							</div>
 						</div>
+						<!-- //신부측 계좌 -->
+					</div>
+					<!-- END :: 계좌안내 -->
 
-
-				</div>
+					<!-- START :: 화환보내기 -->
+					<div class="send-flower btn-bg-deeppink mt-40">
+						<a href="https://partner.flabiz.kr/bms/event/oi?fcard=274339" target="_blank">
+							<p class="txt1"><span class="fw-700">부천 본식</span> 축하 화환 전달하기</p>
+							<p class="caption1">소중한 마음을 담아 전달해 보세요.</p>
+						</a>
+					</div>
+					<!-- END :: 화환보내기 -->
 				
-			</div>
+				</div><!-- //main-section-inner -->
+			</div><!-- //main-section -->
 		</main>
 	</div>
 

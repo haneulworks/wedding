@@ -245,6 +245,10 @@ main {
 .calendar td {
   height: 4rem;
 }
+.calendar tr th:first-child,
+.calendar tr td:first-child {
+  color: #e15c5c;
+}
 .calendar .d-day {
   color: #fff;
   width: 3rem;
@@ -356,7 +360,7 @@ main {
   color: #333333;
   border: 1px solid #E4E4E4;
   background-color: #fff;
-  width: 31%;
+  width: 32%;
   height: 45px;
   line-height: 45px;
 }
