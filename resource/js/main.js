@@ -1,10 +1,3 @@
-$(function() {
-	
-});
-
-
-
-
 $(function () {
 	let scrollY = 0; // 현재 스크롤 위치 저장 변수
 
@@ -104,3 +97,26 @@ $(function () {
 
   $('.realDate').text(displayText);
 });
+
+
+var weddingSwiper = new Swiper(".weddingSlide", {
+	slidesPerView: 'auto',
+	spaceBetween: 16,
+	centeredSlides: true,
+	initialSlide: 1,
+	observer: true,  
+	observeParents: true,
+	autoplay: true,
+	loop: true,
+	loopAdditionalSlides: 1,
+	speed: 800,
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+	pagenation: {
+		el: ".swiper-pagination"
+	},
+	effect: "coverflow",
+});
+//메인비주얼 슬라이드 (E)

@@ -94,6 +94,16 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 .BOX_TMAP{float:left;margin-left:2.5%;}
 .BOX_KAKAO{float:right;}
 
+.weddingSlide{
+	.swiper{
+		&-wrapper{ width: 100%; align-items: center;}
+		&-slide{ display: block; width: 30rem; opacity: .5;
+			&-active{ opacity: 1;}
+			img{ display: block; width: 100%;}
+		}
+	}
+}
+
 
 // 화환보내기
 .send-flower{ padding: 2rem; border-radius: 1.6rem; background-image: url('../img/flower_stand.svg'); background-repeat: no-repeat; background-size: 6.4rem; background-position: right 1rem center;}
