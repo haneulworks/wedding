@@ -243,7 +243,17 @@ main {
 }
 .calendar th,
 .calendar td {
-  height: 4rem;
+  height: 4.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.025rem;
+}
+@media (max-width: 991px) {
+  .calendar th,
+  .calendar td {
+    font-size: 1.6rem;
+  }
 }
 .calendar tr th:first-child,
 .calendar tr td:first-child {
@@ -251,9 +261,9 @@ main {
 }
 .calendar .d-day {
   color: #fff;
-  width: 3rem;
-  height: 3rem;
-  line-height: 3rem;
+  width: 3.4rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
   border-radius: 0.8rem;
   display: inline-block;
 }
