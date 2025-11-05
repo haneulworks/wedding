@@ -3,7 +3,9 @@
 
 main{ display: block; width: 100%; height: 100%; background-color: $color-realwhite;}
 .main-section{ display: block; width: 100%; min-height: 100dvh; margin: 0; padding: 6rem 1.6rem;
-	&-inner{ max-width: 36rem; margin: 0 auto;}
+	&-inner{ margin: 0 auto;
+		@include res(480px){ max-width: 36rem;}
+	}
 }
 
 .name-wrap{ @include d-flex; @include align-center; @include justify-center; gap: 1.6rem; margin-top: 1.6rem;
@@ -51,7 +53,9 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 }
 
 .map{ @include d-flex; @include align-center; @include justify-center; width: 100%;
-	.root_daum_roughmap .cont{ display: none;}
+	.root_daum_roughmap{ width: 100%;
+		.cont{ display: none;}
+	}
 
 	&-wrap{
 		.d-flex{
@@ -81,9 +85,11 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 .send-flower{ padding: 2rem; border-radius: 1.6rem; background-image: url('../img/flower_stand.svg'); background-repeat: no-repeat; background-size: 6.4rem; background-position: right 1rem center;}
 
 .account{
-	&-accordion{ width: 100%; margin: 2rem auto; border: 1px solid $color-graybd; border-radius: 1.6rem; overflow: hidden;}
+	&-accordion{ width: 100%; margin: 2rem auto 0; border: 1px solid $color-graybd; border-radius: 1.6rem; overflow: hidden;
+		+ .account-accordion{ margin-top: 1rem;}
+	}
 
-	&-list{ list-style: none; margin: 0; padding: 1rem 1.6rem;
+	&-list{ list-style: none; margin: 0; padding: 1rem 1.6rem; border-top: 1px solid $color-graybd;
 		li { position: relative; @include d-flex; @include flex-column; @include align-start; @include justify-start; padding: 1rem 0; border-bottom: 1px dotted $color-graybd;
 			&:last-child { border-bottom: none; }
 		}
@@ -100,10 +106,22 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 		&.active{
 			.icon{ transform: rotate(180deg);}
 		}
-		.icon{ transition: 0.3s;}
+		.icon{ transition: 0.3s; width: 1.8rem;
+			img{ display: block; width: 100%;}
+		}
 	}
 
 	&-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: #fff; }
+}
+
+.way_guide{ padding: 2rem; border-radius: 1.6rem; background-color: rgba(255,255,255,.6);
+	.is_map_icon{ display: inline-block; width: 3.2rem;
+		img{ display: block; width: 100%;}
+	}
+	.way_tit{ @include text-style(depth1, 500, 1.6);}
+	.way_txt{ margin-top: .8rem; padding: 0 .4rem; @include text-style(depth2, 400, 1.6);}
+
+	li + li{ padding-top: 1.6rem; margin-top: 1.6rem; border-top: 1px solid $color-graybd;}
 }
 
 
@@ -114,6 +132,8 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 #bucheon{ background-color: $color-lightpink;
 	.great-vibes-regular{ color: #e79696; @include title-style(depth5, 400, 1.6); text-align: center;}
 	.btn-call{ border-color: #e79696;}
+
+	.parents{ font-size: 2.4rem;}
 
 	.calendar .txt1{ background-color: #ffefef;}
 }
