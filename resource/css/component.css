@@ -182,6 +182,15 @@
   background-color: #fff;
   color: #63b2e9;
 }
+.btn-bg-deepblue {
+  background-color: rgba(16, 62, 121, 0.91);
+  color: #fff;
+}
+.btn-bd-deepblue {
+  border: 1px solid rgba(16, 62, 121, 0.91);
+  background-color: #fff;
+  color: rgba(16, 62, 121, 0.91);
+}
 .btn-bg-pink {
   background-color: #e98089;
   color: #fff;
@@ -190,6 +199,15 @@
   border: 1px solid #e98089;
   background-color: #fff;
   color: #e98089;
+}
+.btn-bg-deeppink {
+  background-color: rgba(159, 39, 66, 0.92);
+  color: #fff;
+}
+.btn-bd-deeppink {
+  border: 1px solid rgba(159, 39, 66, 0.92);
+  background-color: #fff;
+  color: rgba(159, 39, 66, 0.92);
 }
 .btn-bg-success {
   background-color: #1976D2;

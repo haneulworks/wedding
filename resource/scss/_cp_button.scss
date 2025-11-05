@@ -97,10 +97,15 @@
 	// 하늘색
 	&-bg-skyblue { background-color: $color-skyblue; color: $color-realwhite; }
 	&-bd-skyblue { border: 1px solid $color-skyblue; background-color: $color-realwhite; color: $color-skyblue; }
+	&-bg-deepblue { background-color: $color-deepblue; color: $color-realwhite; }
+	&-bd-deepblue { border: 1px solid $color-deepblue; background-color: $color-realwhite; color: $color-deepblue; }
 
 	// 분홍색
 	&-bg-pink { background-color: $color-pink; color: $color-realwhite; }
 	&-bd-pink { border: 1px solid $color-pink; background-color: $color-realwhite; color: $color-pink; }
+
+	&-bg-deeppink { background-color: $color-deeppink; color: $color-realwhite; }
+	&-bd-deeppink { border: 1px solid $color-deeppink; background-color: $color-realwhite; color: $color-deeppink; }
 
 	// 상태계열 (Success / Warning / Danger)
 	&-bg-success { background-color: $color-success; color: $color-realwhite; }

@@ -99,8 +99,9 @@ main {
 
 .btn-call {
   width: 100%;
-  border: 1px solid #63b2e9;
+  border: 1px solid rgba(16, 62, 121, 0.91);
   background-color: #fff;
+  color: rgba(16, 62, 121, 0.91);
 }
 
 .call-popup {
@@ -218,11 +219,6 @@ main {
   background-color: #fff;
   padding: 1.6rem;
   border-radius: 1.6rem;
-}
-.calendar .txt1 {
-  padding: 0.8rem;
-  border-radius: 0.8rem;
-  background-color: rgb(216, 235, 253);
 }
 .calendar .firstDate {
   font-weight: 600;
@@ -554,7 +550,7 @@ main {
   background-color: #F3F5F9;
 }
 #dangjin .great-vibes-regular {
-  color: #96c7e7;
+  color: rgba(16, 62, 121, 0.91);
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.6;
@@ -571,7 +567,7 @@ main {
   background-color: #f9f3f3;
 }
 #bucheon .great-vibes-regular {
-  color: #e79696;
+  color: rgba(159, 39, 66, 0.92);
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.6;
@@ -584,13 +580,11 @@ main {
   }
 }
 #bucheon .btn-call {
-  border-color: #e79696;
+  border-color: rgba(159, 39, 66, 0.92);
+  color: rgba(159, 39, 66, 0.92);
 }
 #bucheon .parents {
   font-size: 2.4rem;
-}
-#bucheon .calendar .txt1 {
-  background-color: #ffefef;
 }
 
 .toast-copy {

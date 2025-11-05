@@ -63,6 +63,9 @@
 .bg-pink {
   background-color: #e98089;
 }
+.bg-deeppink {
+  background-color: rgba(159, 39, 66, 0.92);
+}
 .bg-lightblue {
   background-color: #F3F5F9;
 }
@@ -144,6 +147,9 @@
 }
 .color-pink {
   color: #e98089;
+}
+.color-deeppink {
+  color: rgba(159, 39, 66, 0.92);
 }
 .color-danger {
   color: #D32F2F;
