@@ -114,9 +114,6 @@ var weddingSwiper = new Swiper(".weddingSlide", {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
 	},
-	pagenation: {
-		el: ".swiper-pagination"
-	},
 	effect: "coverflow",
 });
 //메인비주얼 슬라이드 (E)
