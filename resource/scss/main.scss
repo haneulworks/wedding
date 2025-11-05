@@ -89,16 +89,13 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 }
 
 // 네비게이션 링크
-.location_wrap{width:100%; height: 5rem; margin:0 auto; margin-top: 1rem;
+.location_wrap{ @include d-flex; @include align-center; @include justify-between; width:100%; height: 5rem; margin:0 auto; margin-top: 1rem;
 	a{ background-color: $color-realwhite;}
 }
 .NAV_BOX{ @include d-flex; @include align-center; @include justify-center; @include caption-style(depth1,400,1.6); TEXT-ALIGN:CENTER;border-radius:10px;color:#333333;border:1px solid #E4E4E4 ;background-color: $color-realwhite; width:31%;height:45px;line-height:45px;}
-.BOX_NAVER{float:left;}
-.BOX_NAVERIMG{WIDTH:20PX;vertical-align:-4px;}
-.BOX_TMAPIMG{WIDTH:22PX;vertical-align:-6px;}
-.BOX_KAKAOIMG{WIDTH:22PX;vertical-align:-6px;}
-.BOX_TMAP{float:left;margin-left:2.5%;}
-.BOX_KAKAO{float:right;}
+.BOX_NAVERIMG{ width: 2rem;}
+.BOX_TMAPIMG{ width: 2rem;}
+.BOX_KAKAOIMG{ width: 2rem;}
 
 .weddingSlide{ position: relative;
 	.swiper{
