@@ -27,7 +27,7 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 }
 
 // 혼주 정보
-.parents{ @include d-flex; @include align-center; @include justify-center; gap: 1rem;
+.parents{ @include d-flex; @include align-center; @include justify-center; @include flex-wrap; column-gap: 1rem;
 	span{ font-weight: 400;}
 }
 
@@ -129,6 +129,7 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 
 	&-list{ list-style: none; margin: 0; padding: 1rem 1.6rem; border-top: 1px solid $color-graybd;
 		li { position: relative; @include d-flex; @include flex-column; @include align-start; @include justify-start; padding: 1rem 0; border-bottom: 1px dotted $color-graybd;
+			&:first-child { padding-top: 0; }
 			&:last-child { border-bottom: none; }
 		}
 		.name { @include caption-style(depth1,400,1.6);}

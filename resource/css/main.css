@@ -101,7 +101,12 @@ main {
   -moz-box-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  gap: 1rem;
+  -webkit-box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
 }
 .parents span {
   font-weight: 400;
@@ -472,6 +477,9 @@ main {
   justify-content: flex-start;
   padding: 1rem 0;
   border-bottom: 1px dotted #ddd;
+}
+.account-list li:first-child {
+  padding-top: 0;
 }
 .account-list li:last-child {
   border-bottom: none;

@@ -106,10 +106,12 @@ var weddingSwiper = new Swiper(".weddingSlide", {
 	initialSlide: 1,
 	observer: true,  
 	observeParents: true,
-	autoplay: true,
+	autoplay: {
+		delay: 3000,
+	},
 	loop: true,
 	loopAdditionalSlides: 1,
-	speed: 800,
+	speed: 1000,
 	navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
