@@ -12,7 +12,7 @@
 	font-family: 'Pretendard';
 	font-weight: 800;
 	font-display: swap;
-	src: url('../fonts/Pretendard-ExtraBold.woff') format('woff');;
+	src: url('../fonts/Pretendard-ExtraBold.woff') format('woff');
 }
 
 @font-face {
@@ -26,49 +26,61 @@
 	font-family: 'Pretendard';
 	font-weight: 600;
 	font-display: swap;
-	src:url('../fonts/Pretendard-SemiBold.woff') format('woff');;
+	src:url('../fonts/Pretendard-SemiBold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 500;
 	font-display: swap;
-	src: url('../fonts/Pretendard-Medium.woff') format('woff');;
+	src: url('../fonts/Pretendard-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 400;
 	font-display: swap;
-	src: url('../fonts/Pretendard-Regular.woff') format('woff');;
+	src: url('../fonts/Pretendard-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 300;
 	font-display: swap;
-	src: url('../fonts/Pretendard-Light.woff') format('woff');;
+	src: url('../fonts/Pretendard-Light.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 200;
 	font-display: swap;
-	src: url('../fonts/Pretendard-ExtraLight.woff') format('woff');;
+	src: url('../fonts/Pretendard-ExtraLight.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 100;
 	font-display: swap;
-	src: url('../fonts/Pretendard-Thin.woff') format('woff');;
+	src: url('../fonts/Pretendard-Thin.woff') format('woff');
 }
+
+@font-face {
+	font-family: 'JejuMyeongjo';
+	font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+	src: url('../fonts/JejuMyeongjo.woff2') format('woff2');
+}
+
+
 
 .great-vibes-regular {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
 }
+@import url('//fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
+.font-jeju{ font-family: 'JejuMyeongjo', serif;}
 
 
 /* title */

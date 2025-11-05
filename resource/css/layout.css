@@ -20,8 +20,8 @@
 
 /* header */
 header {
-  width: 100%;
-  height: 100vh;
+  width: 100%; /*min-height: 100vh;*/
+  background-color: #f9f3f3;
   background-image: url("../img/main_01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +32,15 @@ header {
   display: block;
   width: 100%;
   height: 100%;
-  padding: 1.6rem;
+  padding: 2.4rem 1.6rem;
+}
+.gnb .nav-info {
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1.6rem;
+  text-align: center;
+  word-break: keep-all;
 }
 .gnb ul {
   -ms-display: flexbox; /* Over IE10 */
@@ -52,11 +60,10 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   gap: 2rem;
-  height: 100%;
+  height: 90%;
 }
 .gnb ul > li {
   width: 100%;
-  height: 40vh;
   padding: 2rem;
   backdrop-filter: blur(4px);
   background-color: rgba(255, 255, 255, 0.6);

@@ -44,12 +44,8 @@ function scrollAnkerTo(id) {
 
 // 스크롤 이벤트 라이브러리 AOS 사용
 AOS.init({
-	duration: 1000,
-	disable: function() { // 모바일에서 AOS 사용안함
-		var maxWidth = 991; // 모바일 기기 너비 기준 (예: 768px)
-		return window.innerWidth < maxWidth;
-	}
-});
+	duration: 1200,
+})
 
 $(document).ready(function() {
 	//물방울 마우스 효과 (S)
@@ -72,11 +68,6 @@ $(document).ready(function() {
 
 //페이지 프린트
 $('.btn-print').on('click', function () {
-    $('[data-aos]').css({
-        'opacity': '1',
-        'transform': 'none'
-    });
-	
 	window.print();
 });
 

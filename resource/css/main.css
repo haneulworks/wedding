@@ -17,23 +17,7 @@ main {
   margin: 0 auto;
 }
 
-#dangjin {
-  background-color: #F3F5F9;
-}
-#dangjin .great-vibes-regular {
-  color: #96c7e7;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: -0.025rem;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  #dangjin .great-vibes-regular {
-    font-size: 2.6rem;
-  }
-}
-#dangjin .name-wrap {
+.name-wrap {
   -ms-display: flexbox; /* Over IE10 */
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
@@ -49,27 +33,29 @@ main {
   gap: 1.6rem;
   margin-top: 1.6rem;
 }
-#dangjin .name-wrap .name {
+.name-wrap .name {
   font-size: 3rem;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
 @media (max-width: 991px) {
-  #dangjin .name-wrap .name {
+  .name-wrap .name {
     font-size: 2.6rem;
   }
 }
-#dangjin .img-leaf {
+
+.img-leaf {
   display: block;
   width: 100%;
 }
-#dangjin .img-leaf img {
+.img-leaf img {
   display: block;
   width: 2.8rem;
   margin: 0 auto;
 }
-#dangjin .parents {
+
+.parents {
   -ms-display: flexbox; /* Over IE10 */
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
@@ -84,24 +70,17 @@ main {
   justify-content: center;
   gap: 1rem;
 }
-#dangjin .parents span {
+.parents span {
   font-weight: 400;
-  font-size: 2.4rem;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
-  #dangjin .parents span {
-    font-size: 2rem;
-  }
-}
-#dangjin .btn-call {
+
+.btn-call {
   width: 100%;
   border: 1px solid #63b2e9;
   background-color: #fff;
 }
-#dangjin .call-popup {
+
+.call-popup {
   position: fixed;
   top: 0;
   left: 50%;
@@ -117,11 +96,11 @@ main {
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-#dangjin .call-popup.active {
+.call-popup.active {
   opacity: 1;
   visibility: visible;
 }
-#dangjin .call-popup .inner {
+.call-popup .inner {
   position: relative;
   width: 100%;
   max-height: 100%;
@@ -129,7 +108,7 @@ main {
   border-radius: 1.6rem;
   background-color: #fff;
 }
-#dangjin .call-popup .inner .tit5 span {
+.call-popup .inner .tit5 span {
   margin-left: 0.8rem;
   color: #747478;
   font-size: 2.4rem;
@@ -138,21 +117,21 @@ main {
   letter-spacing: -0.025rem;
 }
 @media (max-width: 991px) {
-  #dangjin .call-popup .inner .tit5 span {
+  .call-popup .inner .tit5 span {
     font-size: 2rem;
   }
 }
-#dangjin .call-popup .icon-close {
+.call-popup .icon-close {
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
-#dangjin .call-popup .call-wrap {
+.call-popup .call-wrap {
   padding: 1.6rem 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
-#dangjin .call-popup .call-list {
+.call-popup .call-list {
   -ms-display: flexbox; /* Over IE10 */
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
@@ -171,29 +150,29 @@ main {
   letter-spacing: -0.025rem;
 }
 @media (max-width: 991px) {
-  #dangjin .call-popup .call-list {
+  .call-popup .call-list {
     font-size: 2rem;
   }
 }
-#dangjin .call-popup .call-list + .call-list {
+.call-popup .call-list + .call-list {
   margin-top: 0.8rem;
 }
-#dangjin .call-popup .call-list .tit {
+.call-popup .call-list .tit {
   width: 10rem;
   color: #747478;
 }
-#dangjin .call-popup .call-list .name {
+.call-popup .call-list .name {
   width: 8rem;
 }
-#dangjin .call-popup .call-list a {
+.call-popup .call-list a {
   display: inline-block;
   padding: 1rem;
 }
-#dangjin .call-popup .call-list a img {
+.call-popup .call-list a img {
   display: block;
   width: 1.8rem;
 }
-#dangjin .call-popup .txt-close {
+.call-popup .txt-close {
   display: block;
   margin: 0 auto;
   margin-top: 3rem;
@@ -204,25 +183,8 @@ main {
   letter-spacing: -0.025rem;
 }
 @media (max-width: 991px) {
-  #dangjin .call-popup .txt-close {
+  .call-popup .txt-close {
     font-size: 2rem;
-  }
-}
-
-#bucheon {
-  background-color: #f9f3f3;
-}
-#bucheon .great-vibes-regular {
-  color: #e79696;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: -0.025rem;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  #bucheon .great-vibes-regular {
-    font-size: 2.6rem;
   }
 }
 
@@ -530,4 +492,44 @@ main {
   -webkit-transition: max-height 0.3s ease;
   transition: max-height 0.3s ease;
   background: #fff;
+}
+
+#dangjin {
+  background-color: #F3F5F9;
+}
+#dangjin .great-vibes-regular {
+  color: #96c7e7;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.025rem;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  #dangjin .great-vibes-regular {
+    font-size: 2.6rem;
+  }
+}
+
+#bucheon {
+  background-color: #f9f3f3;
+}
+#bucheon .great-vibes-regular {
+  color: #e79696;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.025rem;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  #bucheon .great-vibes-regular {
+    font-size: 2.6rem;
+  }
+}
+#bucheon .btn-call {
+  border-color: #e79696;
+}
+#bucheon .calendar .txt1 {
+  background-color: #ffefef;
 }

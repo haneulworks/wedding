@@ -2,6 +2,7 @@
 /*────────────
 ▶ color
 ────────────*/
+@import url("//fonts.googleapis.com/earlyaccess/jejumyeongjo.css");
 .bg-main {
   background-color: #7bc4f7;
 }
@@ -417,10 +418,21 @@
   font-display: swap;
   src: url("../fonts/Pretendard-Thin.woff") format("woff");
 }
+@font-face {
+  font-family: "JejuMyeongjo";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/JejuMyeongjo.woff2") format("woff2");
+}
 .great-vibes-regular {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.font-jeju {
+  font-family: "JejuMyeongjo", serif;
 }
 
 /* title */
