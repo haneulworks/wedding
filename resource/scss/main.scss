@@ -168,16 +168,30 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	li + li{ padding-top: 1.6rem; margin-top: 1.6rem; border-top: 1px solid $color-graybd;}
 }
 
+// 엔딩 배너
+.endding-banner{ position: relative; width: 100%; height: 20rem;
+	background-image: url('../img/main_05.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+	.bg{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgb(37 35 35 / 60%);}
+	.txt1{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 90%;}
+	
+}
+
+.share-wrap{ padding: 6rem 1.6rem;
+	.btn{ @include d-flex; @include align-center; @include justify-center; gap: .8rem; margin: 0 auto; padding-left: 2.4rem; padding-right: 2.4rem; background-color: rgb(159 39 66 / 5%); box-shadow: 0px 2px 8px 4px rgb(33 18 18 / 10%);}
+	img{ display: inline-block; width: 3.6rem;}
+}
+
 // 당진 식전 피로연
 #dangjin{ background-color: $color-lightblue;
 	.section-title{ color: $color-deepblue; @include title-style(depth5, 600, 1.6); text-align: center;}
-	
 }
 
 // 부천 본식
 #bucheon{ background-color: $color-lightpink;
 	.section-title{ color: $color-deeppink; @include title-style(depth5, 600, 1.6); text-align: center;}
-
 
 	.btn-call{ border-color: $color-deeppink; color: $color-deeppink;}
 
