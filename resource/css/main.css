@@ -409,7 +409,7 @@ main {
 }
 .weddingSlide .swiper-slide {
   display: block;
-  width: 30rem;
+  width: 60%;
   opacity: 0.5;
 }
 .weddingSlide .swiper-slide-active {
