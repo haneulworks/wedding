@@ -101,7 +101,7 @@ $(function () {
 
 var weddingSwiper = new Swiper(".weddingSlide", {
 	slidesPerView: 'auto',
-	spaceBetween: 16,
+	spaceBetween: 8,
 	centeredSlides: true,
 	initialSlide: 1,
 	observer: true,  
