@@ -448,7 +448,7 @@
   line-height: 1.3;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .tit1 {
     font-size: 5rem;
   }
@@ -459,7 +459,7 @@
   line-height: 1.3;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .tit2 {
     font-size: 4.2rem;
   }
@@ -470,7 +470,7 @@
   line-height: 1.5;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .tit3 {
     font-size: 3.6rem;
   }
@@ -481,7 +481,7 @@
   line-height: 1.5;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .tit4 {
     font-size: 3.2rem;
   }
@@ -492,7 +492,7 @@
   line-height: 1.5;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .tit5 {
     font-size: 2.6rem;
   }
@@ -505,7 +505,7 @@
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .txt1 {
     font-size: 2rem;
   }
@@ -516,7 +516,7 @@
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .txt2, .txt__default {
     font-size: 1.8rem;
   }
@@ -529,7 +529,7 @@
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .caption1 {
     font-size: 1.6rem;
   }
@@ -540,7 +540,7 @@
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .caption2 {
     font-size: 1.4rem;
   }
@@ -559,7 +559,7 @@
   vertical-align: middle;
   line-height: 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .essential::after {
     font-size: 1.6rem;
   }
@@ -569,7 +569,7 @@
 .fs-10 {
   font-size: calc(10 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-10 {
     font-size: calc(10 / 12) rem;
   }
@@ -578,7 +578,7 @@
 .fs-11 {
   font-size: calc(11 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-11 {
     font-size: calc(11 / 12) rem;
   }
@@ -587,7 +587,7 @@
 .fs-12 {
   font-size: calc(12 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-12 {
     font-size: calc(12 / 12) rem;
   }
@@ -596,7 +596,7 @@
 .fs-13 {
   font-size: calc(13 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-13 {
     font-size: calc(13 / 12) rem;
   }
@@ -605,7 +605,7 @@
 .fs-14 {
   font-size: calc(14 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-14 {
     font-size: calc(14 / 12) rem;
   }
@@ -614,7 +614,7 @@
 .fs-15 {
   font-size: calc(15 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-15 {
     font-size: calc(15 / 12) rem;
   }
@@ -623,7 +623,7 @@
 .fs-16 {
   font-size: calc(16 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-16 {
     font-size: calc(16 / 12) rem;
   }
@@ -632,7 +632,7 @@
 .fs-17 {
   font-size: calc(17 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-17 {
     font-size: calc(17 / 12) rem;
   }
@@ -641,7 +641,7 @@
 .fs-18 {
   font-size: calc(18 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-18 {
     font-size: calc(18 / 12) rem;
   }
@@ -650,7 +650,7 @@
 .fs-19 {
   font-size: calc(19 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-19 {
     font-size: calc(19 / 12) rem;
   }
@@ -659,7 +659,7 @@
 .fs-20 {
   font-size: calc(20 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-20 {
     font-size: calc(20 / 12) rem;
   }
@@ -668,7 +668,7 @@
 .fs-21 {
   font-size: calc(21 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-21 {
     font-size: calc(21 / 12) rem;
   }
@@ -677,7 +677,7 @@
 .fs-22 {
   font-size: calc(22 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-22 {
     font-size: calc(22 / 12) rem;
   }
@@ -686,7 +686,7 @@
 .fs-23 {
   font-size: calc(23 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-23 {
     font-size: calc(23 / 12) rem;
   }
@@ -695,7 +695,7 @@
 .fs-24 {
   font-size: calc(24 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-24 {
     font-size: calc(24 / 12) rem;
   }
@@ -704,7 +704,7 @@
 .fs-25 {
   font-size: calc(25 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-25 {
     font-size: calc(25 / 12) rem;
   }
@@ -713,7 +713,7 @@
 .fs-26 {
   font-size: calc(26 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-26 {
     font-size: calc(26 / 12) rem;
   }
@@ -722,7 +722,7 @@
 .fs-27 {
   font-size: calc(27 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-27 {
     font-size: calc(27 / 12) rem;
   }
@@ -731,7 +731,7 @@
 .fs-28 {
   font-size: calc(28 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-28 {
     font-size: calc(28 / 12) rem;
   }
@@ -740,7 +740,7 @@
 .fs-29 {
   font-size: calc(29 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-29 {
     font-size: calc(29 / 12) rem;
   }
@@ -749,7 +749,7 @@
 .fs-30 {
   font-size: calc(30 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-30 {
     font-size: calc(30 / 12) rem;
   }
@@ -758,7 +758,7 @@
 .fs-31 {
   font-size: calc(31 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-31 {
     font-size: calc(31 / 12) rem;
   }
@@ -767,7 +767,7 @@
 .fs-32 {
   font-size: calc(32 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-32 {
     font-size: calc(32 / 12) rem;
   }
@@ -776,7 +776,7 @@
 .fs-33 {
   font-size: calc(33 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-33 {
     font-size: calc(33 / 12) rem;
   }
@@ -785,7 +785,7 @@
 .fs-34 {
   font-size: calc(34 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-34 {
     font-size: calc(34 / 12) rem;
   }
@@ -794,7 +794,7 @@
 .fs-35 {
   font-size: calc(35 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-35 {
     font-size: calc(35 / 12) rem;
   }
@@ -803,7 +803,7 @@
 .fs-36 {
   font-size: calc(36 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-36 {
     font-size: calc(36 / 12) rem;
   }
@@ -812,7 +812,7 @@
 .fs-37 {
   font-size: calc(37 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-37 {
     font-size: calc(37 / 12) rem;
   }
@@ -821,7 +821,7 @@
 .fs-38 {
   font-size: calc(38 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-38 {
     font-size: calc(38 / 12) rem;
   }
@@ -830,7 +830,7 @@
 .fs-39 {
   font-size: calc(39 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-39 {
     font-size: calc(39 / 12) rem;
   }
@@ -839,7 +839,7 @@
 .fs-40 {
   font-size: calc(40 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-40 {
     font-size: calc(40 / 12) rem;
   }
@@ -848,7 +848,7 @@
 .fs-41 {
   font-size: calc(41 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-41 {
     font-size: calc(41 / 12) rem;
   }
@@ -857,7 +857,7 @@
 .fs-42 {
   font-size: calc(42 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-42 {
     font-size: calc(42 / 12) rem;
   }
@@ -866,7 +866,7 @@
 .fs-43 {
   font-size: calc(43 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-43 {
     font-size: calc(43 / 12) rem;
   }
@@ -875,7 +875,7 @@
 .fs-44 {
   font-size: calc(44 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-44 {
     font-size: calc(44 / 12) rem;
   }
@@ -884,7 +884,7 @@
 .fs-45 {
   font-size: calc(45 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-45 {
     font-size: calc(45 / 12) rem;
   }
@@ -893,7 +893,7 @@
 .fs-46 {
   font-size: calc(46 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-46 {
     font-size: calc(46 / 12) rem;
   }
@@ -902,7 +902,7 @@
 .fs-47 {
   font-size: calc(47 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-47 {
     font-size: calc(47 / 12) rem;
   }
@@ -911,7 +911,7 @@
 .fs-48 {
   font-size: calc(48 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-48 {
     font-size: calc(48 / 12) rem;
   }
@@ -920,7 +920,7 @@
 .fs-49 {
   font-size: calc(49 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-49 {
     font-size: calc(49 / 12) rem;
   }
@@ -929,7 +929,7 @@
 .fs-50 {
   font-size: calc(50 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-50 {
     font-size: calc(50 / 12) rem;
   }
@@ -938,7 +938,7 @@
 .fs-51 {
   font-size: calc(51 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-51 {
     font-size: calc(51 / 12) rem;
   }
@@ -947,7 +947,7 @@
 .fs-52 {
   font-size: calc(52 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-52 {
     font-size: calc(52 / 12) rem;
   }
@@ -956,7 +956,7 @@
 .fs-53 {
   font-size: calc(53 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-53 {
     font-size: calc(53 / 12) rem;
   }
@@ -965,7 +965,7 @@
 .fs-54 {
   font-size: calc(54 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-54 {
     font-size: calc(54 / 12) rem;
   }
@@ -974,7 +974,7 @@
 .fs-55 {
   font-size: calc(55 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-55 {
     font-size: calc(55 / 12) rem;
   }
@@ -983,7 +983,7 @@
 .fs-56 {
   font-size: calc(56 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-56 {
     font-size: calc(56 / 12) rem;
   }
@@ -992,7 +992,7 @@
 .fs-57 {
   font-size: calc(57 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-57 {
     font-size: calc(57 / 12) rem;
   }
@@ -1001,7 +1001,7 @@
 .fs-58 {
   font-size: calc(58 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-58 {
     font-size: calc(58 / 12) rem;
   }
@@ -1010,7 +1010,7 @@
 .fs-59 {
   font-size: calc(59 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-59 {
     font-size: calc(59 / 12) rem;
   }
@@ -1019,7 +1019,7 @@
 .fs-60 {
   font-size: calc(60 / 10) rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .fs-60 {
     font-size: calc(60 / 12) rem;
   }
@@ -1151,7 +1151,7 @@
   line-height: 1;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .lists.num-square li::before {
     font-size: 1.8rem;
   }
@@ -1159,7 +1159,7 @@
 .lists.num-square li + li {
   margin-top: 1.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .lists.num-square li {
     padding-left: 3.2rem;
     word-break: keep-all;
@@ -1242,7 +1242,7 @@
 .pc-item {
   display: block;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .pc-item {
     display: none;
   }
@@ -1251,7 +1251,7 @@
 .mo-item {
   display: none;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mo-item {
     display: block;
   }
@@ -1336,7 +1336,7 @@
 .gap-1 {
   gap: 0.1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-1 {
     gap: 0.08rem;
   }
@@ -1345,7 +1345,7 @@
 .gap-2 {
   gap: 0.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-2 {
     gap: 0.16rem;
   }
@@ -1354,7 +1354,7 @@
 .gap-3 {
   gap: 0.3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-3 {
     gap: 0.24rem;
   }
@@ -1363,7 +1363,7 @@
 .gap-4 {
   gap: 0.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-4 {
     gap: 0.32rem;
   }
@@ -1372,7 +1372,7 @@
 .gap-5 {
   gap: 0.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-5 {
     gap: 0.4rem;
   }
@@ -1381,7 +1381,7 @@
 .gap-6 {
   gap: 0.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-6 {
     gap: 0.48rem;
   }
@@ -1390,7 +1390,7 @@
 .gap-7 {
   gap: 0.7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-7 {
     gap: 0.56rem;
   }
@@ -1399,7 +1399,7 @@
 .gap-8 {
   gap: 0.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-8 {
     gap: 0.64rem;
   }
@@ -1408,7 +1408,7 @@
 .gap-9 {
   gap: 0.9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-9 {
     gap: 0.72rem;
   }
@@ -1417,7 +1417,7 @@
 .gap-10 {
   gap: 1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-10 {
     gap: 0.8rem;
   }
@@ -1426,7 +1426,7 @@
 .gap-11 {
   gap: 1.1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-11 {
     gap: 0.88rem;
   }
@@ -1435,7 +1435,7 @@
 .gap-12 {
   gap: 1.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-12 {
     gap: 0.96rem;
   }
@@ -1444,7 +1444,7 @@
 .gap-13 {
   gap: 1.3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-13 {
     gap: 1.04rem;
   }
@@ -1453,7 +1453,7 @@
 .gap-14 {
   gap: 1.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-14 {
     gap: 1.12rem;
   }
@@ -1462,7 +1462,7 @@
 .gap-15 {
   gap: 1.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-15 {
     gap: 1.2rem;
   }
@@ -1471,7 +1471,7 @@
 .gap-16 {
   gap: 1.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-16 {
     gap: 1.28rem;
   }
@@ -1480,7 +1480,7 @@
 .gap-17 {
   gap: 1.7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-17 {
     gap: 1.36rem;
   }
@@ -1489,7 +1489,7 @@
 .gap-18 {
   gap: 1.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-18 {
     gap: 1.44rem;
   }
@@ -1498,7 +1498,7 @@
 .gap-19 {
   gap: 1.9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-19 {
     gap: 1.52rem;
   }
@@ -1507,7 +1507,7 @@
 .gap-20 {
   gap: 2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-20 {
     gap: 1.6rem;
   }
@@ -1516,7 +1516,7 @@
 .gap-21 {
   gap: 2.1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-21 {
     gap: 1.68rem;
   }
@@ -1525,7 +1525,7 @@
 .gap-22 {
   gap: 2.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-22 {
     gap: 1.76rem;
   }
@@ -1534,7 +1534,7 @@
 .gap-23 {
   gap: 2.3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-23 {
     gap: 1.84rem;
   }
@@ -1543,7 +1543,7 @@
 .gap-24 {
   gap: 2.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-24 {
     gap: 1.92rem;
   }
@@ -1552,7 +1552,7 @@
 .gap-25 {
   gap: 2.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-25 {
     gap: 2rem;
   }
@@ -1561,7 +1561,7 @@
 .gap-26 {
   gap: 2.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-26 {
     gap: 2.08rem;
   }
@@ -1570,7 +1570,7 @@
 .gap-27 {
   gap: 2.7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-27 {
     gap: 2.16rem;
   }
@@ -1579,7 +1579,7 @@
 .gap-28 {
   gap: 2.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-28 {
     gap: 2.24rem;
   }
@@ -1588,7 +1588,7 @@
 .gap-29 {
   gap: 2.9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-29 {
     gap: 2.32rem;
   }
@@ -1597,7 +1597,7 @@
 .gap-30 {
   gap: 3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-30 {
     gap: 2.4rem;
   }
@@ -1606,7 +1606,7 @@
 .gap-31 {
   gap: 3.1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-31 {
     gap: 2.48rem;
   }
@@ -1615,7 +1615,7 @@
 .gap-32 {
   gap: 3.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-32 {
     gap: 2.56rem;
   }
@@ -1624,7 +1624,7 @@
 .gap-33 {
   gap: 3.3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-33 {
     gap: 2.64rem;
   }
@@ -1633,7 +1633,7 @@
 .gap-34 {
   gap: 3.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-34 {
     gap: 2.72rem;
   }
@@ -1642,7 +1642,7 @@
 .gap-35 {
   gap: 3.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-35 {
     gap: 2.8rem;
   }
@@ -1651,7 +1651,7 @@
 .gap-36 {
   gap: 3.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-36 {
     gap: 2.88rem;
   }
@@ -1660,7 +1660,7 @@
 .gap-37 {
   gap: 3.7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-37 {
     gap: 2.96rem;
   }
@@ -1669,7 +1669,7 @@
 .gap-38 {
   gap: 3.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-38 {
     gap: 3.04rem;
   }
@@ -1678,7 +1678,7 @@
 .gap-39 {
   gap: 3.9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-39 {
     gap: 3.12rem;
   }
@@ -1687,7 +1687,7 @@
 .gap-40 {
   gap: 4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-40 {
     gap: 3.2rem;
   }
@@ -1696,7 +1696,7 @@
 .gap-41 {
   gap: 4.1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-41 {
     gap: 3.28rem;
   }
@@ -1705,7 +1705,7 @@
 .gap-42 {
   gap: 4.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-42 {
     gap: 3.36rem;
   }
@@ -1714,7 +1714,7 @@
 .gap-43 {
   gap: 4.3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-43 {
     gap: 3.44rem;
   }
@@ -1723,7 +1723,7 @@
 .gap-44 {
   gap: 4.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-44 {
     gap: 3.52rem;
   }
@@ -1732,7 +1732,7 @@
 .gap-45 {
   gap: 4.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-45 {
     gap: 3.6rem;
   }
@@ -1741,7 +1741,7 @@
 .gap-46 {
   gap: 4.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-46 {
     gap: 3.68rem;
   }
@@ -1750,7 +1750,7 @@
 .gap-47 {
   gap: 4.7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-47 {
     gap: 3.76rem;
   }
@@ -1759,7 +1759,7 @@
 .gap-48 {
   gap: 4.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-48 {
     gap: 3.84rem;
   }
@@ -1768,7 +1768,7 @@
 .gap-49 {
   gap: 4.9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-49 {
     gap: 3.92rem;
   }
@@ -1777,7 +1777,7 @@
 .gap-50 {
   gap: 5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-50 {
     gap: 4rem;
   }
@@ -1786,7 +1786,7 @@
 .gap-51 {
   gap: 5.1rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-51 {
     gap: 4.08rem;
   }
@@ -1795,7 +1795,7 @@
 .gap-52 {
   gap: 5.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-52 {
     gap: 4.16rem;
   }
@@ -1804,7 +1804,7 @@
 .gap-53 {
   gap: 5.3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-53 {
     gap: 4.24rem;
   }
@@ -1813,7 +1813,7 @@
 .gap-54 {
   gap: 5.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-54 {
     gap: 4.32rem;
   }
@@ -1822,7 +1822,7 @@
 .gap-55 {
   gap: 5.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-55 {
     gap: 4.4rem;
   }
@@ -1831,7 +1831,7 @@
 .gap-56 {
   gap: 5.6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-56 {
     gap: 4.48rem;
   }
@@ -1840,7 +1840,7 @@
 .gap-57 {
   gap: 5.7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-57 {
     gap: 4.56rem;
   }
@@ -1849,7 +1849,7 @@
 .gap-58 {
   gap: 5.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-58 {
     gap: 4.64rem;
   }
@@ -1858,7 +1858,7 @@
 .gap-59 {
   gap: 5.9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-59 {
     gap: 4.72rem;
   }
@@ -1867,7 +1867,7 @@
 .gap-60 {
   gap: 6rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .gap-60 {
     gap: 4.8rem;
   }
@@ -1948,7 +1948,7 @@
 .mt-24 {
   margin-top: 2.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mt-24 {
     margin-top: 1.6rem;
   }
@@ -1959,7 +1959,7 @@
 .mt-32 {
   margin-top: 3.2rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mt-32 {
     margin-top: 1.6rem;
   }
@@ -1976,7 +1976,7 @@
 .mt-48 {
   margin-top: 4.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mt-48 {
     margin-top: 2.4rem;
   }
@@ -2011,7 +2011,7 @@
 .mb-30 {
   margin-bottom: 3rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mb-30 {
     margin-bottom: 1.6rem;
   }
@@ -2028,7 +2028,7 @@
 .mb-70 {
   margin-bottom: 7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mb-70 {
     margin-bottom: 4rem;
   }
@@ -2046,7 +2046,7 @@
 .pd-all-40 {
   padding: 4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .pd-all-40 {
     padding: 3rem;
   }
@@ -2054,7 +2054,7 @@
 .pd-all-40__16 {
   padding: 4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .pd-all-40__16 {
     padding: 1.6rem;
   }
@@ -2062,7 +2062,7 @@
 .pd-all-90 {
   padding: 9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .pd-all-90 {
     padding: 6rem;
   }

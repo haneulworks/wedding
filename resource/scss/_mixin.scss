@@ -6,13 +6,13 @@
 		@content;
 	}
 }
-@mixin res991{
-	@media(max-width:991px){
+@mixin res1024{
+	@media(max-width:1024px){
 		@content;
 	}
 }
-@mixin res680{
-	@media(max-width:680px){
+@mixin res720{
+	@media(max-width:720px){
 		@content;
 	}
 }
@@ -42,7 +42,7 @@
     max-width: $container;
     margin-left: auto;
     margin-right: auto;
-	@include res991{ padding-left: 1.2rem; padding-right: 1.2rem;}
+	@include res1024{ padding-left: 1.2rem; padding-right: 1.2rem;}
 }
 
 // grid
@@ -166,7 +166,7 @@
 	line-height: $line-height;
 	letter-spacing: -0.025rem;
 
-	@include res991 {
+	@include res1024 {
 		font-size: map-get($tit-sizes, #{$depth}-m);
 	}
 }
@@ -177,7 +177,7 @@
 	line-height: $line-height;
 	letter-spacing: -0.025rem;
 
-	@include res991 {
+	@include res1024 {
 		font-size: map-get($txt-sizes, #{$depth}-m);
 	}
 }
@@ -188,7 +188,7 @@
 	line-height: $line-height;
 	letter-spacing: -0.025rem;
 
-	@include res991 {
+	@include res1024 {
 		font-size: map-get($caption-sizes, #{$depth}-m);
 	}
 }

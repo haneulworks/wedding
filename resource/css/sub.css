@@ -5,7 +5,7 @@
 .sub-sec + .sub-sec {
   margin-top: 7rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .sub-sec + .sub-sec {
     margin-top: 4rem;
   }
@@ -17,7 +17,7 @@
 .sub-sec-title {
   margin-bottom: 2.4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .sub-sec-title {
     margin-bottom: 2.4rem;
   }

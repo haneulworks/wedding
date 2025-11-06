@@ -56,7 +56,7 @@
   min-width: 6rem;
   padding: 0.4rem 0.8rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .btn-s {
     font-size: 1.6rem;
     min-width: 6rem;
@@ -68,7 +68,7 @@
   min-width: 10rem;
   padding: 1.5rem 4rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .btn-m {
     font-size: 2.2rem;
     min-width: 10.8rem;
@@ -82,7 +82,7 @@
   line-height: 1.6;
   font-weight: 500;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .btn-l {
     font-size: 2rem;
     min-width: 10rem;
@@ -356,7 +356,7 @@
   border-color: #ddd;
   background-color: #f7f7f7;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .btn-fileGray {
     padding: 1.121rem 1rem;
   }
@@ -394,7 +394,7 @@
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .btn-action {
     font-size: 2rem;
   }
@@ -432,7 +432,7 @@
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .btn-wrap.nowrap li,
   .btn-wrap.nowrap .btn {
     width: 100%;

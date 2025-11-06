@@ -15,6 +15,7 @@ main {
 }
 .main-section-inner {
   margin: 0 auto;
+  max-width: 72rem;
 }
 @media (max-width: 480px) {
   .main-section-inner {
@@ -65,7 +66,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .name-wrap .name {
     font-size: 2.6rem;
   }
@@ -126,7 +127,7 @@ main {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 100vw;
-  max-width: 48rem;
+  max-width: 120rem;
   height: 100dvh;
   padding: 4rem 2rem;
   background-color: rgba(0, 0, 0, 0.5);
@@ -144,7 +145,7 @@ main {
   position: relative;
   width: 100%;
   max-height: 100%;
-  padding: 8rem 1.6rem 4rem;
+  padding: 6rem 1.6rem 4rem;
   border-radius: 1.6rem;
   background-color: #fff;
 }
@@ -152,7 +153,7 @@ main {
   overflow-y: auto;
   display: block;
   width: 100%;
-  max-height: 66vh;
+  max-height: 68vh;
 }
 .call-popup .inner .tit5 span {
   margin-left: 0.8rem;
@@ -162,7 +163,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .call-popup .inner .tit5 span {
     font-size: 2rem;
   }
@@ -195,7 +196,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .call-popup .call-list {
     font-size: 2rem;
   }
@@ -204,8 +205,13 @@ main {
   margin-top: 0.8rem;
 }
 .call-popup .call-list .tit {
-  width: 10rem;
+  width: 14rem;
   color: #747478;
+}
+@media (max-width: 1024px) {
+  .call-popup .call-list .tit {
+    width: 10rem;
+  }
 }
 .call-popup .call-list .name {
   width: 8rem;
@@ -228,7 +234,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .call-popup .txt-close {
     font-size: 2rem;
   }
@@ -255,7 +261,7 @@ main {
   line-height: 1;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .calendar th,
   .calendar td {
     font-size: 1.6rem;
@@ -380,7 +386,7 @@ main {
   height: 45px;
   line-height: 45px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .NAV_BOX {
     font-size: 1.6rem;
   }
@@ -510,7 +516,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .account-list .name {
     font-size: 1.6rem;
   }
@@ -522,7 +528,7 @@ main {
   letter-spacing: -0.025rem;
   color: #747478;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .account-list .bank {
     font-size: 1.6rem;
   }
@@ -533,7 +539,7 @@ main {
   line-height: 1.2;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .account-list .bank-num {
     font-size: 2rem;
   }
@@ -554,7 +560,7 @@ main {
   border-radius: 0.4rem;
   cursor: pointer;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .account-list .copyText {
     font-size: 1.6rem;
   }
@@ -584,7 +590,7 @@ main {
   outline: none;
   cursor: pointer;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .accordion-header {
     font-size: 2rem;
   }
@@ -629,7 +635,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .way_guide .way_tit {
     font-size: 2rem;
   }
@@ -642,7 +648,7 @@ main {
   line-height: 1.6;
   letter-spacing: -0.025rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .way_guide .way_txt {
     font-size: 1.8rem;
   }
@@ -656,11 +662,16 @@ main {
 .endding-banner {
   position: relative;
   width: 100%;
-  height: 22rem;
+  height: 32rem;
   background-image: url("../img/main_05.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+@media (max-width: 720px) {
+  .endding-banner {
+    height: 22rem;
+  }
 }
 .endding-banner .bg {
   position: absolute;
@@ -719,7 +730,7 @@ main {
   letter-spacing: -0.025rem;
   text-align: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   #dangjin .section-title {
     font-size: 2.6rem;
   }
@@ -736,7 +747,7 @@ main {
   letter-spacing: -0.025rem;
   text-align: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   #bucheon .section-title {
     font-size: 2.6rem;
   }

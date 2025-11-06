@@ -44,13 +44,13 @@
 	
 	//글자크기 및 높이
 	&-s{ font-size: map-get($caption-sizes, depth1); min-width: 6rem; padding: .4rem .8rem;
-		@include res991{ font-size: map-get($caption-sizes, depth1-m); min-width: 6rem; padding: .3rem .6rem;}
+		@include res1024{ font-size: map-get($caption-sizes, depth1-m); min-width: 6rem; padding: .3rem .6rem;}
 	}
 	&-m{ font-size: map-get($txt-sizes, depth1); min-width: 10rem; padding: 1.5rem 4rem;
-		@include res991{ font-size: map-get($txt-sizes, depth2); min-width: 10.8rem; padding: 1.6rem 0.9rem;}
+		@include res1024{ font-size: map-get($txt-sizes, depth2); min-width: 10.8rem; padding: 1.6rem 0.9rem;}
 	}
 	&-l{ font-size: map-get($txt-sizes, depth1); min-width: 12rem; padding: 1.261rem 4rem; line-height: 1.6; font-weight: 500;
-		@include res991{ font-size: map-get($txt-sizes, depth1-m); min-width: 10rem; padding: 1.582rem 2rem;}
+		@include res1024{ font-size: map-get($txt-sizes, depth1-m); min-width: 10rem; padding: 1.582rem 2rem;}
 	}
 
 	&-half{ width: calc(50% - .4rem);}
@@ -141,7 +141,7 @@
 		&::after{ content: ''; display: block; width: 1.6rem; height: 1.2rem; background-image: url('../img/common/icon-link-right.png'); background-repeat: no-repeat; background-position: center right; background-size: .8rem;}
 	}
 	&-fileGray{ padding: 0.95rem 2.9rem; border-color: $color-graybd; background-color: $color-graybg;
-		@include res991{ padding: 1.121rem 1rem;}
+		@include res1024{ padding: 1.121rem 1rem;}
 	}
 
 	&-download{ display: inline-flex; @include align-center; @include justify-center; column-gap: 1rem; width: 16rem; border: 1px solid $color-main; background-color: $color-realwhite; color: $color-main;
@@ -161,7 +161,7 @@
 
 .btn-wrap{ @include d-flex; @include align-center; @include flex-wrap; gap: .8rem; row-gap: .8rem;
 	&.nowrap{ @include flex-nowrap;
-		@include res991{
+		@include res1024{
 			li,
 			.btn{ width: 100%; min-width: unset; max-width: 10.8rem;}
 		}

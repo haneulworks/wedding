@@ -14,10 +14,10 @@
 }
 
 .pc-item{ display: block;
-	@include res991{ display: none;}
+	@include res1024{ display: none;}
 }
 .mo-item{ display: none;
-	@include res991{ display: block;}
+	@include res1024{ display: block;}
 }
 
 //flex
@@ -37,7 +37,7 @@
 @for $i from 1 through 60 {
 	.gap-#{$i} {
 		gap: ($i / 10) * 1rem;
-		@include res991 {
+		@include res1024 {
 		gap: ($i / 10) * .8rem;
 		}
 	}

@@ -111,7 +111,7 @@
 @for $i from 10 through 60 {
 	.fs-#{$i} {
 		font-size: calc(#{$i} / 10)rem;
-		@include res991{ font-size: calc(#{$i} / 12)rem;}
+		@include res1024{ font-size: calc(#{$i} / 12)rem;}
 	}
 }
 
@@ -184,7 +184,7 @@
 				+ li{ margin-top: 1.6rem;}
 			}
 
-			@include res991{
+			@include res1024{
 				li{ padding-left: 3.2rem; word-break: keep-all;
 					&::before{ top: 0; width: 2rem; height: 2rem; font-size: 1.5rem; line-height: 1.5rem;}
 					+ li{ margin-top: .8rem;}
