@@ -694,43 +694,35 @@
 	<button id="toTop" class="to-top" aria-label="맨 위로 이동"><img src="./resource/img/arrow-up.png" alt="화살표"></button>
 
 	<script type="text/javascript">
-		// 클릭 시 OS 감지 → 모바일이면 카카오 공유 실행, 아니면 안내 메시지 or 웹 링크 공유
-		function shareKakao() {
-			if (!Kakao.isInitialized()) {
-				Kakao.init('536faa6c1d5a22b09e3afa6b5184fc8f');
+		// // 사용할 앱의 JavaScript 키를 설정해 주세요.
+		Kakao.init('536faa6c1d5a22b09e3afa6b5184fc8f');
+		// // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+		Kakao.Share.createDefaultButton({
+			container: '#kakao-link-btn',
+			objectType: 'feed',
+			content: {
+			title: '유찬희 ❤️ 이하늘 결혼합니다.',
+			description: '2026년 03월 14일 토요일 PM 12시 30분 MJ컨벤션',
+			imageUrl: 'https://feelcard.co.kr/carddata/gksmf1830_n/TanSky/share_img/tWEv24AP.jpg',
+			imageWidth: 600,
+			imageHeight: 600,
+			link: {
+				mobileWebUrl: 'https://haneulworks.github.io/wedding/',
+				webUrl: 'https://haneulworks.github.io/wedding/',
 			}
+			},
 
-			// 모바일 환경 감지
-			const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-			if (isMobile) {
-				Kakao.Link.sendDefault({
-				objectType: 'feed',
-				content: {
-					title: '유찬희 ❤️ 이하늘 결혼합니다.',
-					description: '2026년 03월 14일 토요일 PM 12시 30분 MJ컨벤션',
-					imageUrl: 'https://feelcard.co.kr/carddata/gksmf1830_n/TanSky/share_img/tWEv24AP.jpg',
-					imageWidth: 600,
-					imageHeight: 600,
-					link: {
-					mobileWebUrl: 'https://haneulworks.github.io/wedding/',
-					webUrl: 'https://haneulworks.github.io/wedding/'
-					}
+					
+			buttons: [
+			{
+				title: '청첩장 보기',
+				link: {
+				mobileWebUrl: 'https://haneulworks.github.io/wedding/',
+				webUrl: 'https://haneulworks.github.io/wedding/',
 				},
-				buttons: [
-					{
-						title: '청첩장 보기',
-						link: {
-							mobileWebUrl: 'https://haneulworks.github.io/wedding/',
-							webUrl: 'https://haneulworks.github.io/wedding/'
-						}
-					}
-				]
-				});
-			} else {
-				alert('카카오톡 공유는 모바일 기기에서만 가능합니다.');
-			}
-		}
+			},
+			]
+		});
 	</script>
 </body>
 </html>
