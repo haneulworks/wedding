@@ -678,10 +678,12 @@
 			</div>
 			<!-- END :: 엔딩 배너 -->
 
-			<div class="share-wrap txt1 keep-all-pretty">
-				<button type="button" id="kakao-link-btn">카카오톡으로 공유</button>
-				<button type="button" class="btn copyText" data-copy="https://haneulworks.github.io/wedding/"><img src="./resource/img/icon-link.png" alt="링크 아이콘" /> 모바일청첩장 주소 복사하기</button>
+			<!-- START :: 청첩장 공유 -->
+			<div class="share-wrap btn-wrap txt1 keep-all-pretty">
+				<button type="button" id="kakao-link-btn" class="btn btn-full"><img src="./resource/img/icon-kakao.png" alt="카카오톡 아이콘" />카카오톡으로 공유</button>
+				<button type="button" class="btn btn-full copyText" data-copy="https://haneulworks.github.io/wedding/"><img src="./resource/img/icon-link.png" alt="링크 아이콘" /> 모바일청첩장 주소 복사하기</button>
 			</div>
+			<!-- END :: 청첩장 공유 -->
 		</main>
 		<footer>
 			<!-- 카피라이트 -->
@@ -701,15 +703,15 @@
 			container: '#kakao-link-btn',
 			objectType: 'feed',
 			content: {
-			title: '유찬희 ❤️ 이하늘 결혼합니다.',
-			description: '식전 피로연 26.02.28.\n부천 본식 26.03.14. 함께해주세요.',
-			imageUrl: 'https://feelcard.co.kr/carddata/gksmf1830_n/TanSky/share_img/tWEv24AP.jpg',
-			imageWidth: 600,
-			imageHeight: 600,
-			link: {
-				mobileWebUrl: 'https://haneulworks.github.io/wedding/',
-				webUrl: 'https://haneulworks.github.io/wedding/',
-			}
+				title: '유찬희 ❤️ 이하늘 결혼합니다.',
+				description: '식전 피로연 26.02.28.\n부천 본식 26.03.14. 함께해주세요.',
+				imageUrl: 'https://feelcard.co.kr/carddata/gksmf1830_n/TanSky/share_img/tWEv24AP.jpg',
+				imageWidth: 600,
+				imageHeight: 600,
+				link: {
+					mobileWebUrl: 'https://haneulworks.github.io/wedding/',
+					webUrl: 'https://haneulworks.github.io/wedding/',
+				}
 			},
 
 					
@@ -717,8 +719,8 @@
 			{
 				title: '청첩장 보기',
 				link: {
-				mobileWebUrl: 'https://haneulworks.github.io/wedding/',
-				webUrl: 'https://haneulworks.github.io/wedding/',
+					mobileWebUrl: 'https://haneulworks.github.io/wedding/',
+					webUrl: 'https://haneulworks.github.io/wedding/',
 				},
 			},
 			]

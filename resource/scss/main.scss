@@ -184,9 +184,9 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 	
 }
 
-// 청첩장 공유 링크
-.share-wrap{ padding: 6rem 1.6rem;
-	.btn{ @include d-flex; @include align-center; @include justify-center; gap: .8rem; margin: 0 auto; padding-left: 2.4rem; padding-right: 2.4rem; background-color: rgb(159 39 66 / 5%); box-shadow: 0px 2px 8px 4px rgb(33 18 18 / 10%);}
+// 청첩장 공유
+.share-wrap{ @include d-flex; @include flex-column; padding: 6rem 1.6rem;
+	.btn{ @include d-flex; @include align-center; @include justify-center; gap: .8rem; width: 100%; margin: 0 auto; padding-left: 2.4rem; padding-right: 2.4rem;}
 	img{ display: inline-block; width: 3.6rem;}
 }
 
