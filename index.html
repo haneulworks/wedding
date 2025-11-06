@@ -31,6 +31,8 @@
 	<script defer type="text/javascript" src="resource/js/aos.js"></script>
 	<script defer type="text/javascript" src="resource/js/common.js"></script>
 	<script defer type="text/javascript" src="resource/js/main.js"></script>
+
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.0.0/kakao.min.js" integrity="sha384-PFHeU/4gvSH8kpvhrigAPfZGBDPs372JceJq3jAXce11bVA6rMvGWzvP4fMQuBGL" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -677,6 +679,7 @@
 			<!-- END :: 엔딩 배너 -->
 
 			<div class="share-wrap txt1 keep-all-pretty">
+				<button type="button" id="kakao-link-btn">카카오톡으로 공유</button>
 				<button type="button" class="btn copyText" data-copy="https://haneulworks.github.io/wedding/"><img src="./resource/img/icon-link.png" alt="링크 아이콘" /> 모바일청첩장 주소 복사하기</button>
 			</div>
 		</main>
@@ -689,5 +692,45 @@
 	<div class="toast-copy">복사되었습니다!</div>
 
 	<button id="toTop" class="to-top" aria-label="맨 위로 이동"><img src="./resource/img/arrow-up.png" alt="화살표"></button>
+
+	<script type="text/javascript">
+		// 클릭 시 OS 감지 → 모바일이면 카카오 공유 실행, 아니면 안내 메시지 or 웹 링크 공유
+		function shareKakao() {
+			if (!Kakao.isInitialized()) {
+				Kakao.init('536faa6c1d5a22b09e3afa6b5184fc8f');
+			}
+
+			// 모바일 환경 감지
+			const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+			if (isMobile) {
+				Kakao.Link.sendDefault({
+				objectType: 'feed',
+				content: {
+					title: '유찬희 ❤️ 이하늘 결혼합니다.',
+					description: '2026년 03월 14일 토요일 PM 12시 30분 MJ컨벤션',
+					imageUrl: 'https://feelcard.co.kr/carddata/gksmf1830_n/TanSky/share_img/tWEv24AP.jpg',
+					imageWidth: 600,
+					imageHeight: 600,
+					link: {
+					mobileWebUrl: 'https://haneulworks.github.io/wedding/',
+					webUrl: 'https://haneulworks.github.io/wedding/'
+					}
+				},
+				buttons: [
+					{
+						title: '청첩장 보기',
+						link: {
+							mobileWebUrl: 'https://haneulworks.github.io/wedding/',
+							webUrl: 'https://haneulworks.github.io/wedding/'
+						}
+					}
+				]
+				});
+			} else {
+				alert('카카오톡 공유는 모바일 기기에서만 가능합니다.');
+			}
+		}
+	</script>
 </body>
 </html>
