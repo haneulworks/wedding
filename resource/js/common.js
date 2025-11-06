@@ -234,3 +234,56 @@ $(function () {
 		}, 1500);
 	}
 });
+
+(function () {
+  const btn = document.getElementById('toTop');
+  const threshold = 8; // 하단으로 간주할 픽셀 여유
+  let lastScrollY = window.scrollY || document.documentElement.scrollTop;
+
+  function toggleButton(show) {
+    if (show) {
+      btn.classList.add('show');
+      btn.setAttribute('aria-hidden', 'false');
+    } else {
+      btn.classList.remove('show');
+      btn.setAttribute('aria-hidden', 'true');
+    }
+  }
+
+  function checkScroll() {
+    const scrolled = window.scrollY || document.documentElement.scrollTop;
+    const viewport = window.innerHeight;
+    const full = Math.max(
+      document.documentElement.scrollHeight,
+      document.body.scrollHeight
+    );
+
+    const atBottom = scrolled + viewport >= full - threshold;
+    const isScrollingUp = scrolled < lastScrollY && scrolled > 100; 
+    // (100px 이상 아래에서만 위로 스크롤 시 버튼 표시 → 너무 위에서 자꾸 뜨는 거 방지)
+
+    toggleButton(atBottom || isScrollingUp);
+    lastScrollY = scrolled;
+  }
+
+  // 스크롤 이벤트 (requestAnimationFrame으로 성능 개선)
+  let ticking = false;
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          checkScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    },
+    { passive: true }
+  );
+
+  // 버튼 클릭 시 맨 위로 부드럽게 이동
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
