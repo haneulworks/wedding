@@ -107,7 +107,7 @@ main{ display: block; width: 100%; height: 100%; background-color: $color-realwh
 		}
 	}
 
-	&-block { position: absolute; top: 0; left: 0; width: 100%; height: calc(100% - 32px); z-index: 10; background: transparent; /* 클릭/드래그만 막고 지도는 보이게 */
+	&-block { position: absolute; top: 0; left: 0; width: 100%; height: calc(100% - 32px); z-index: 1; background: transparent; /* 클릭/드래그만 막고 지도는 보이게 */
 }
 }
 
