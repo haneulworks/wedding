@@ -162,7 +162,7 @@ main {
   overflow-y: auto;
   display: block;
   width: 100%;
-  max-height: calc(100vh - 23rem);
+  max-height: calc(100dvh - 23rem);
 }
 .call-popup .inner-scroll::-webkit-scrollbar {
   width: 8px; /* 스크롤바의 너비 */
