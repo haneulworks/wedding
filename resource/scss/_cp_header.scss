@@ -15,5 +15,5 @@ header{ width: 100%; /*min-height: 100vh;*/ background-color: $color-lightpink; 
 	}
 
 	// 상세보기 버튼
-	.btn{ padding-right: 1.6rem; padding-left: 1.6rem;}
+	.btn{ padding-right: 1.6rem; padding-left: 1.6rem; font-size: map-get($caption-sizes, depth2);}
 }
