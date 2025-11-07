@@ -47,56 +47,45 @@ $(function () {
 });
 
 $(function () {
-  const targetDate = new Date('2026-02-28'); // 목표 날짜
-  const today = new Date();                  // 오늘 날짜
+  // ✅ 식전 피로연
+  const targetDate1 = new Date('2026-02-28');
+  const today1 = new Date();
+  today1.setHours(0, 0, 0, 0);
+  targetDate1.setHours(0, 0, 0, 0);
+  const diffDays1 = Math.ceil((targetDate1 - today1) / (1000 * 60 * 60 * 24));
 
-  // 시간(시/분/초) 영향 제거 → 날짜만 비교
-  today.setHours(0, 0, 0, 0);
-  targetDate.setHours(0, 0, 0, 0);
-
-  // 남은 일수 계산
-  const diffTime = targetDate - today;
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-  // 출력 (예: D-123, D-Day, D+1 형태)
-  let displayText = '';
-
-  if (diffDays > 0) {
-    displayText = `D-${diffDays}`;
-  } else if (diffDays === 0) {
-    displayText = 'D-Day';
+  if (diffDays1 > 0) {
+    $('.dday-before-first').show();
+    $('.dday-today-first, .dday-after-first').hide();
+    $('.firstDate').text(`D-${diffDays1}`);
+  } else if (diffDays1 === 0) {
+    $('.dday-today-first').show();
+    $('.dday-before-first, .dday-after-first').hide();
   } else {
-    displayText = `D+${Math.abs(diffDays)}`; // 날짜가 지났을 때도 대응 가능
+    $('.dday-after-first').show();
+    $('.dday-before-first, .dday-today-first').hide();
   }
 
-  $('.firstDate').text(displayText);
-});
-
-$(function () {
-  const targetDate2 = new Date('2026-03-14'); // 목표 날짜
-  const today = new Date();                  // 오늘 날짜
-
-  // 시간(시/분/초) 영향 제거 → 날짜만 비교
-  today.setHours(0, 0, 0, 0);
+  // ✅ 본식
+  const targetDate2 = new Date('2026-03-14');
+  const today2 = new Date();
+  today2.setHours(0, 0, 0, 0);
   targetDate2.setHours(0, 0, 0, 0);
+  const diffDays2 = Math.ceil((targetDate2 - today2) / (1000 * 60 * 60 * 24));
 
-  // 남은 일수 계산
-  const diffTime = targetDate2 - today;
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-  // 출력 (예: D-123, D-Day, D+1 형태)
-  let displayText = '';
-
-  if (diffDays > 0) {
-    displayText = `D-${diffDays}`;
-  } else if (diffDays === 0) {
-    displayText = 'D-Day';
+  if (diffDays2 > 0) {
+    $('.dday-before-main').show();
+    $('.dday-today-main, .dday-after-main').hide();
+    $('.realDate').text(`D-${diffDays2}`);
+  } else if (diffDays2 === 0) {
+    $('.dday-today-main').show();
+    $('.dday-before-main, .dday-after-main').hide();
   } else {
-    displayText = `D+${Math.abs(diffDays)}`; // 날짜가 지났을 때도 대응 가능
+    $('.dday-after-main').show();
+    $('.dday-before-main, .dday-today-main').hide();
   }
-
-  $('.realDate').text(displayText);
 });
+
 
 
 var weddingSwiper = new Swiper(".weddingSlide", {
