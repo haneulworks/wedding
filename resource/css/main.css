@@ -292,7 +292,7 @@ main {
 }
 .calendar th,
 .calendar td {
-  height: 4.2rem;
+  height: 7rem;
   font-size: 2rem;
   font-weight: 400;
   line-height: 1;
@@ -304,17 +304,56 @@ main {
     font-size: 1.6rem;
   }
 }
+@media (max-width: 1024px) {
+  .calendar th,
+  .calendar td {
+    height: 6rem;
+  }
+}
+@media (max-width: 720px) {
+  .calendar th,
+  .calendar td {
+    height: 5rem;
+  }
+}
+@media (max-width: 480px) {
+  .calendar th,
+  .calendar td {
+    height: 4.2rem;
+  }
+}
 .calendar tr th:first-child,
 .calendar tr td:first-child {
   color: #e15c5c;
 }
 .calendar .d-day {
   color: #fff;
-  width: 3.4rem;
-  height: 3.2rem;
-  line-height: 3.2rem;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
   border-radius: 0.8rem;
   display: inline-block;
+}
+@media (max-width: 1024px) {
+  .calendar .d-day {
+    width: 4.4rem;
+    height: 4.4rem;
+    line-height: 4.4rem;
+  }
+}
+@media (max-width: 720px) {
+  .calendar .d-day {
+    width: 3.8rem;
+    height: 3.8rem;
+    line-height: 3.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .calendar .d-day {
+    width: 3.4rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+  }
 }
 
 .tag {
